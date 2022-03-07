@@ -1,0 +1,40 @@
+```sh
+.__ .___.  ..___.   .__..__ .  ..___.  ..___.   .  ..___
+|  \[__ \  /[__ |   |  |[__)|\/|[__ |\ |  |     |\/|[__ 
+|__/[___ \/ [___|___|__||   |  |[___| \|  |   * |  |[___
+                                                        
+```
+
+- [CORS](cors.md)
+- [Vue.js](js/vue/README.md)
+  - [Install Vue and it's SFC, CLI](js/vue/installVue.md)
+  - [Different Builds](js/vue/differentBuilds.md)
+  - [Composition API](js/vue/composition/api.md)
+  - [Fetching Data](js/vue/composition/fetchData.md)
+  - [Setup Script Method](js/vue/composition/setupScripts.md)
+  - [Quasar](js/vue/quasar/README.md)
+    - [Command List](js/vue/quasar/commandList.md)
+    - [Global Components](js/vue/quasar/globalComponents.md)
+    - [Boot Files](js/vue/quasar/bootFiles.md)
+    - [Boot Plugin](js/vue/quasar/bootPlugin.md)
+    - [Quasar Pre-fetch](js/vue/quasar/quasarPrefetch.md)
+    - [Quasar Assets](js/vue/quasar/quasarAssets.md)
+    - [API Proxy](js/vue/quasar/apiProxy.md)
+    - [Sass in JS](js/vue/quasar/sassInJs.md)
+    - [env Process](js/vue/quasar/envProcess.md)
+    - [Deploying Or Building](js/vue/quasar/deployingOrBuilding.md)
+    - [Quasar Testing](js/vue/quasar/quasarTesting.md)
+    - [Dev For Public](js/vue/quasar/devForPublic.md)
+- [HTML](html/README.md)
+  - [Preloading & Prefetching](html/prefetchAndPreload.md)
+- [CSS](css/README.md)
+  - [UNOCSS](css/unocss.md)
+- [PHP](php/README.md)
+  - [Preload](php/preload.md)
+  - [Laravel](php/laravel/README.md)
+  - [Run shell_exec as sudo](php/shellExec/README.md)
+- [Icon sets](icons/README.md)
+  - [octIcons](icons/octIcons.md)
+  - [Material Design Icons](icons/materialIcons.md)
+- [Prototyping](prototyping/README.md)
+- [Creating a node.js Cmd Line App](nodeCli/README.md)
