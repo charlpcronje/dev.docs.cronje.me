@@ -1,0 +1,12 @@
+icon: grepo-templateear
+expanded: true
+title: Perl Development | DEVserv.ME
+label: Perl Dev Extensions
+order: 94
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+date: 2022-01-25
+tags: [dev,tools,cli,perl]

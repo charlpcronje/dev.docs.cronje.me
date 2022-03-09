@@ -1,4 +1,14 @@
-# OctIcons
+---
+title: OctIcons Sets - DEVserv.ME
+label: OctIcons in Sets 
+order: 96
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,js,php,frontend,developer,devtools,material,icon,octIcons]
+---
 
 Official Website: [https://primer.style/octicons/](https://primer.style/octicons/)_
 

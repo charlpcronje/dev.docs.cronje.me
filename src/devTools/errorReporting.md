@@ -1,4 +1,16 @@
-# ISA Dev Tools - Error Reporting
+---
+title: Dev Tools - Error Reporting
+label: Error Reporting
+order: 98
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+date: 2022-01-25
+tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,error,reports]
+---
+# Dev Tools - Error Reporting
 
 Usually the error_reporting is disabled in `php.ini`.
 

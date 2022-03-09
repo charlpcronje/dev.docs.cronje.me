@@ -1,4 +1,16 @@
-# ISA Dev Tools - Console Log
+---
+title: Dev Tools - Console Log
+label: Console Log
+order: 99
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+date: 2022-01-25
+tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,console,log]
+---
+# Dev Tools - Console Log
 
 The `ConsoleLog` or alias `CL` class is available to send logs to the browser console
 

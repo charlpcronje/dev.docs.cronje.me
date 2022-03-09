@@ -1,4 +1,16 @@
-# Custom State Management
+---
+icon: star
+expanded: true
+title: Custom State Management | DEVserv.ME
+label: Custom State Management
+order: 60
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,pinia,vuex,devtools,state]
+---
 
 After using Vuex and Pinia for little while I did not like either one of them
 

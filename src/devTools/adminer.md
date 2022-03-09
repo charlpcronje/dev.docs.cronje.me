@@ -1,4 +1,14 @@
-# ISA Dev Tools - SQL Client Adminer
+---
+title: Adminer SQL Client
+order: 95
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+date: 2022-01-25
+tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,sql,client]
+---
 
 You can think of Adminer as a light weight PHPMyAdmin that runs from a single PHP file and is very customizable.
 

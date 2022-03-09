@@ -1,5 +1,16 @@
-# Composition API
-
+---
+icon: star
+expanded: true
+title: Vue.js Composition API | DEVserv.ME
+label: Composition API
+order: 60
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,frontend,backend,devtools,vue,js]
+---
 ## watch Effect
 
 > Watch Effect will be executed every time any one of the dependencies of the variable changes

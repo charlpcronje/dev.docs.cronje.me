@@ -1,4 +1,16 @@
-# Vue Web Storage
+---
+icon: pulse
+expanded: true
+title: Vue Web Storage | DEVserv.ME
+label: Vue Web Storage
+order: 50
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,frontend,backend,devtools,vue,js]
+---
 
 ## Features
 

@@ -1,5 +1,14 @@
-# Chrome Manifest V3
-
+---
+title: Manifest V3 | DEVserv.ME
+label: Manifest V3
+order: 96
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,extension,chrome,manifest,v3]
+---
 A step in the direction of security, privacy, and performance.
 
 Published on Monday, November 9, 2020

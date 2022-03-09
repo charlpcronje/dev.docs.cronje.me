@@ -1,4 +1,14 @@
-# Install Node.js Locally with Node Version Manager (nvm)
+---
+title: Install Node.js with NVM
+label: Node.js with NVM
+order: 94
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,backend,developer,devtools,node.js,nvm]
+___
 
 Using `nvm` (Node.js Version Manager) makes it easier to install and manage multiple versions of Node.js on a single local environment. Even if you only need a single version of Node.js right now, we still recommend using nvm because it allows you to switch between different versions of Node (depending on the requirements of your project) with minimal hassle.
 

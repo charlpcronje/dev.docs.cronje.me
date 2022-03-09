@@ -1,0 +1,11 @@
+icon: file-zip
+expanded: true
+title: Vite JS | DEVserv.ME
+label: Vite.JS
+order: 99
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,frontend,backend,vite,js,developer]
