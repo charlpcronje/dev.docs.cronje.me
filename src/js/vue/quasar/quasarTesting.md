@@ -23,7 +23,7 @@ The Test Driven Design approach will help you to write better (and fewer) tests.
 
 ## Table of contents
 
-- [@quasar/testing](#693-quasartesting)
+- [@quasar/testing](#)
   - [Table of contents](#table-of-contents)
   - [Donations](#donations)
   - [Installation](#installation)
@@ -39,12 +39,6 @@ The Test Driven Design approach will help you to write better (and fewer) tests.
     - [Cypress](#cypress)
     - [WebDriver.io (wdio) **DEPRECATED**](#webdriverio-wdio-deprecated)
     - [Quality Auditing](#quality-auditing)
-  - [Contributing](#contributing)
-  - [Road map](#roadmap)
-    - [UNIT](#unit)
-    - [E2E](#e2e)
-    - [QUALITY](#quality)
-    - [UTILS](#utils)
 
 ## Donations
 

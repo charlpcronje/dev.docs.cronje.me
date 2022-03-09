@@ -563,7 +563,7 @@ quasar inspect -h
 
 ## Ext
 
-This command is used to manage [App Extensions](/app-extensions/introduction).
+This command is used to manage App `Extensions/app-extensions/introduction`
 
 ```bash
 quasar ext -h
@@ -596,7 +596,7 @@ quasar ext -h
 
 ## Run
 
-This command is used to run commands supplied by the [App Extensions](/app-extensions/introduction) that you've installed into your project folder.
+This command is used to run commands supplied by the `App` `Extensions/app-extensions/introduction` that you've installed into your project folder.
 
 ```bash
 quasar run -h

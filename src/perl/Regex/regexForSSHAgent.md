@@ -173,7 +173,7 @@ Some examples:
 
 Note the difference between the second and third patterns. The second form is usually what you want. The third form does _not_ create multiple variables for multiple digits. Parentheses are numbered when the pattern is compiled, not when it is matched.
 
-Captured strings are often called _backreferences_ because they refer back to parts of the captured text. There are actually two ways to get at these backreferences. The numbered variables you've seen are how you get at backreferences outside of a pattern, but inside the pattern, that doesn't work. You have to use, etc.[[9]](#FOOTNOTE-9) So to find doubled words like "the the" or "had had", you might use this pattern:
+Captured strings are often called _backreferences_ because they refer back to parts of the captured text. There are actually two ways to get at these backreferences. The numbered variables you've seen are how you get at backreferences outside of a pattern, but inside the pattern, that doesn't work. You have to use, etc.[#FOOTNOTE-9](#) So to find doubled words like "the the" or "had had", you might use this pattern:
 
 But most often, you'll be using the $ form, because you'll usually apply a pattern and then do something with the substrings. Suppose you have some text (a mail header) that looks like this:
 

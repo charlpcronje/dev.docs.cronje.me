@@ -138,7 +138,7 @@ export default {
 ```
 
 ::: tip
-If you are developing a SSR app, then you can check out the [ssrContext](/quasar-cli/developing-ssr/ssr-context) Object that gets supplied server-side.
+If you are developing a SSR app, then you can check out the `ssrContext/quasar-cli/developing-ssr/ssr-context` Object that gets supplied server-side.
 :::
 
 ```js
@@ -293,10 +293,10 @@ This is useful only to type `store` parameter, other parameters are automaticall
 A good UX includes notifying the user that something is being worked on in the background while he/she waits for the page to be ready. Quasar CLI offers two options for this out of the box.
 
 ## 7.3.9 LoadingBar
-When you add Quasar [LoadingBar](/quasar-plugins/loading-bar) plugin to your app, Quasar CLI will use it while it runs the preFetch hooks by default.
+When you add Quasar `LoadingBar/quasar-plugins/loading-bar` plugin to your app, Quasar CLI will use it while it runs the preFetch hooks by default.
 
 ## 7.3.10 Loading
-There's also the possibility to use Quasar [Loading](/quasar-plugins/loading) plugin. Here's an example:
+There's also the possibility to use Quasar `Loading/quasar-plugins/loading` plugin. Here's an example:
 
 ```js
 // a route .vue component

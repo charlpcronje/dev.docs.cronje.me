@@ -45,18 +45,18 @@ devtools::install_git("https://gitlab.com/hrbrmstr/markdowntemplates")
 devtools::install_github("hrbrmstr/markdowntemplates")
 ```
 
-### Bulma example
+### NBA Scoring
 
-![](./man/figures/bulma.png)
+![](img/1.png)
 
-### Skeleton/default example
+### GGPlotly Geo
 
-![](./man/figures/skeleton.png)
+![](img/2.png)
 
-### Kube example
+### Gene Expression Bi-Clustering
 
-![](./man/figures/kube.png)
+![](img/3.png)
 
-### Minimal example
+### R-Markdown
 
-![](./man/figures/minimal.png)
+![](img/4.png)

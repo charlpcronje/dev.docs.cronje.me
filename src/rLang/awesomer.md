@@ -4,7 +4,7 @@ A curated list of awesome R packages and tools. Inspired by [awesome-machine-lea
 
 === Index
 ## Index
-- [Awesome R](#awesome-)
+- [Awesome R](#)
     - [2020](#2020)
     - [2019](#2019)
     - [2018](#2018)
@@ -41,7 +41,6 @@ A curated list of awesome R packages and tools. Inspired by [awesome-machine-lea
     - [MOOCs](#moocs)
     - [Lists](#lists)
 - [Other Awesome Lists](#other-awesome-lists)
-- [Contributing](#contributing)
 
 ## 2020
 
