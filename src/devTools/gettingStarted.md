@@ -1,7 +1,6 @@
 # ISA Dev Tools - Getting Started
 
-> *The Dev Helpers can be remotely included from the dev-tools server on 192.168.9.101 or dev-tools.isa.co.za (Pending Approval and DNS Entry) by adding the following to the file*
-The above is no longer the best way. A way to get the devTools included but without touching the code:
+> In an ideal word the dev tools would be loaded from a remote server so that I don't have to keep on deplaying the dev tools on every server. After some playing around for a while I created a Docker container serving each script on a different por. For now I'm still playing around with some more ideas._
 
 ```shell
     nano /etc/httpd/conf/httpd.conf
@@ -10,8 +9,6 @@ The above is no longer the best way. A way to get the devTools included but with
 Where is says `AllowOverride none`, change that so that it says `AllowOverride All`, save (CTRL O) and exit (CTRL X)
 Copy .htaccess file that is located in the `tools/system` folder to the root of the project you are editing. Now all traffic will be routed to `/tool/system/prepend.php`
 This will add the dev-tools to the execution of the code, them the prepend script will include the file that was supposed to opened in the first place.
-
-/** THE REST IF THE FILE NEED TO BE REVISED **/
 
 ```php
     include('https://192.168.9.101/init.php');
