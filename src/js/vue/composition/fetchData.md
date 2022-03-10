@@ -1,9 +1,6 @@
----
-icon: gear
-expanded: true
-title: Fetching Data (http requests) | DEVserv.ME
+---: Fetching Data (http requests) | DEVserv.ME
 label: Fetching Data
-order: 60
+order: 40
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

@@ -1,7 +1,4 @@
----
-icon: star
-expanded: true
-title: Custom State Management | DEVserv.ME
+---title: Custom State Management | DEVserv.ME
 label: Custom State Management
 order: 60
 authors:
@@ -10,9 +7,7 @@ authors:
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,js,pinia,vuex,devtools,state]
----
-
-After using Vuex and Pinia for little while I did not like either one of them
+---After using Vuex and Pinia for little while I did not like either one of them
 
 1. Cumbersome to setup
 2. Store code becomes a mess quick, Vuex does have modules that you can use but that is an even bigger hassle to setup

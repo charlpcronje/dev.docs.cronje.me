@@ -1,4 +1,14 @@
-# Awesome R
+---: Awesome R | DEVserv.ME
+label: Awesome R
+order: 101
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
+---
+# 
 
 A curated list of awesome R packages and tools. Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning).
 
@@ -416,7 +426,7 @@ Angle Regression
 * [SnowballC](https://cran.rstudio.com/web/packages/SnowballC/index.html) - Snowball stemmers based on the C libstemmer UTF-8 library.
 * [quanteda](https://github.com/kbenoit/quanteda) - R functions for Quantitative Analysis of Textual Data.
 * [Topic Models Resources](https://github.com/trinker/topicmodels_learning) - Topic Models learning and R related resources.
-* [NLP for <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f1e8-1f1f3.png" width="20" heigth="20" align="absmiddle" class="emoji" alt=":cn:">](https://github.com/BZRLC/R-notes/blob/master/NLP/readme.md) - NLP related resources in R. @Chinese
+* [NLP for <img src="https://assets-cdn.github.com/images/
 * [MonkeyLearn](https://github.com/masalmon/monkeylearn) - 🐒 R package for text analysis with Monkeylearn 🐒.
 * [tidytext](http://tidytextmining.com/index.html) - Implementing tidy principles of Hadley Wickham to text mining.
 * [utf8](https://github.com/patperry/r-utf8) - Manipulating and printing UTF-8 text that fixes multiple bugs in R's UTF-8 handling.
@@ -543,7 +553,7 @@ Angle Regression
 * [engsoccerdata](https://github.com/jalapic/engsoccerdata) - English and European soccer results 1871-2016.
 * [gapminder](http://github.com/jennybc/gapminder) - Excerpt from the Gapminder dataset (data about countries through the past 50 years).
 * [wbstats](https://cran.r-project.org/web/packages/wbstats/index.html) - Tools for searching and downloading data and statistics from the World Bank Data API and the World Bank Data Catalog API.
-* [ICON](https://github.com/rrrlw/ICON) - complex systems & networks datasets from the Index of COmplex Networks (ICON) database [webpage](http://icon.colorado.edu).
+* [
 * [RCOBOLDI](https://github.com/thospfuller/rcoboldi) - Import COBOL CopyBook data files directly into R as properly structured data frames. Package builds are available via [Drat](https://github.com/thospfuller/drat) and [DockerHub](https://hub.docker.com/r/thospfuller/rcoboldi-rocker-rstudio).
 ===
 
@@ -658,7 +668,7 @@ Angle Regression
 === Great resources for learning domain knowledge
 * [Books](https://github.com/RomanTsegelskyi/rbooks) - List of R Books.
 * [ggplot2 Extensions](https://ggplot2-exts.github.io/ggiraph.html) - Showcases of ggplot2 extensions.
-* [Natural Language Processing <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f1e8-1f1f3.png" width="20" heigth="20" align="absmiddle" class="emoji" alt=":cn:">](https://github.com/BZRLC/R-notes/blob/master/NLP/readme.md) - NLP related resources in R. @Chinese
+* [Natural Language Processing <img src="https://assets-cdn.github.com/images/
 * [Network Analysis](https://github.com/briatte/awesome-network-analysis) - Network Analysis related resources.
 * [Open Data](https://github.com/ropensci/opendata) - Using R to obtain, parse, manipulate, create, and share open data.
 * [Posts](https://github.com/qinwf/awesome-R/blob/master/misc/posts.md) - Great R blog posts or Rticles.

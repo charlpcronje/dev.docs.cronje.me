@@ -1,6 +1,13 @@
-# Quasar
-
-## Getting Started
+---: Quasar | DEVserv.ME
+label: Quasar
+order: 37
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
+---## Getting Started
 
 - [Command List](./commandList.md)
 - [Boot Files](./bootFiles.md)

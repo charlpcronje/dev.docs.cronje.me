@@ -1,3 +1,13 @@
+---: Laravel Lighthouse | GraphQL
+label: Laravel Lighthouse
+order: 0
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,frontend,backend,devtools,php,laravel]
+---
 # [Installation](https://lighthouse-php.com/5/getting-started/installation.html#ide-support)
 
 The following section teaches you how to install Lighthouse in your project.

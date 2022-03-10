@@ -1,5 +1,4 @@
----
-title: Preloading & Pre-fetching - DEVserv.ME
+---: Preloading & Pre-fetching - DEVserv.ME
 label: Preloading & Pre-fetching
 order: 96
 authors:
@@ -9,8 +8,6 @@ authors:
     avatar: https://assets.devserv.me/avatars/darker.jpg
 date: 2022-01-25
 tags: [dev,js,php,frontend,developer,devtools,pre-fetching]
----
-
-# HTML
+---# HTML
 
 - [Preloading & Prefetching](prefetchAndPreload.md)

@@ -1,3 +1,13 @@
+---: Blade Views | DEVserv.ME
+label: Laravel Blade Views
+order: 5
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,frontend,backend,devtools,php,laravel]
+---
 # Views
 
 Next, we'll create a simple view to display our user data. Views live in the `app/views` directory and contain the HTML of your application. We're going to place two new views in this directory: `layout.blade.php` and `users.blade.php`. First, let's create our `layout.blade.php` file:

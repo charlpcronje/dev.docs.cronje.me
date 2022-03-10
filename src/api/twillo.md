@@ -1,4 +1,13 @@
-# Twilio API for WhatsApp
+---: Twillo API | DEVserv.ME
+label: Twillo API
+order: 96
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,extension,chrome,manifest,v3]
+---# Twilio API for WhatsApp
 
 > Send Whatsapp messages using twilio
 

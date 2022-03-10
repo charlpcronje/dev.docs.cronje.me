@@ -1,15 +1,11 @@
----
-icon: zap
-expanded: true
-title: Dev Tools | DEVserv.ME
+---title: DEV Tools | DEVserv.ME
 label: DEV Tools
-order: 100
+order: 64
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 ---
 ```sh

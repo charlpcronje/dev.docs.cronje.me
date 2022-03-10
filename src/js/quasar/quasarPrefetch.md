@@ -1,19 +1,13 @@
----
-icon: pulse
-expanded: true
-title: Quasar Prefetch Feature | DEVserv.ME
+---: Quasar Prefetch Feature | DEVserv.ME
 label: Quasar Prefetch
-order: 80
+order: 33
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
 tags: [dev,tools,js,frontend,backend,devtools,quasar,prefetch,plugin]
----
-
-The PreFetch is a feature (**only available when using Quasar CLI**) which allows the components picked up by Vue Router (defined in `/src/router/routes.js`) to:
+---The PreFetch is a feature (**only available when using Quasar CLI**) which allows the components picked up by Vue Router (defined in `/src/router/routes.js`) to:
 
 * pre-fetch data
 * validate the route

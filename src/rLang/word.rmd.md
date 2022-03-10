@@ -1,4 +1,14 @@
-# Word and R Markdown
+---: Word and R Markdown | DEVserv.ME
+label: Word and R Markdown
+order: 101
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
+---
+# 
 
 These templates is an R package to help you create lovely R Markdown documents, primarily for conversion to `LaTeX PDFs`. They come from the suite of `R Markdown templates`, which is available as an `R package`.
 

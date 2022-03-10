@@ -1,7 +1,4 @@
----
-icon: pulse
-expanded: true
-title: Vue Web Storage | DEVserv.ME
+---title: Vue Web Storage | DEVserv.ME
 label: Vue Web Storage
 order: 50
 authors:
@@ -10,9 +7,7 @@ authors:
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,js,frontend,backend,devtools,vue,js]
----
-
-## Features
+---## Features
 
 - Choose either localStorage or sessionStorage or both
 - Prefix all of your stored keys

@@ -1,7 +1,6 @@
----
-title: Manifest V3 | DEVserv.ME
+---: Manifest V3 | DEVserv.ME
 label: Manifest V3
-order: 96
+order: 55
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

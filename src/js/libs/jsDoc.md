@@ -1,9 +1,19 @@
-JS DOC
+---: Library - JS DOC
+label: Library - JS DOC
+order: 47
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,backend,developer,js,doc,jsdoc]
+___
 
-https://jsdoc.app/tags-type.html
 
-https://jsdoc.app/
-https://davidshimjs.github.io/jaguarjs/
-https://github.com/DBCDK/jsdoc3Template
+Here are some useful links to explain JS DOC and why it is helpful
 
-https://stackoverflow.com/questions/8071897/how-to-document-anonymous-functions-closure-with-jsdoc-toolkit
+- [JS Doc Home](https://jsdoc.app)
+- [Tags Type](https://jsdoc.app/tags-type.html)
+- [JaguarJS](https://davidshimjs.github.io/jaguarjs/)
+- [Template](https://github.com/DBCDK/jsdoc3Template)
+- [Stackoverflow](https://stackoverflow.com/questions/8071897/how-to-document-anonymous-functions-closure-with-jsdoc-toolkit)

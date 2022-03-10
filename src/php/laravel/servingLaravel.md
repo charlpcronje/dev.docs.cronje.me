@@ -1,6 +1,13 @@
-# Serving Laravel
-
-Typically, you may use a web server such as Apache or Nginx to serve your Laravel applications. If you are on PHP 5.4+ and would like to use PHP's built-in development server, you may use the `serve` Artisan command:
+---: Serving Laravel | DEVserv.ME
+label: Serving Laravel
+order: 6
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,frontend,backend,devtools,php,laravel]
+---Typically, you may use a web server such as Apache or Nginx to serve your Laravel applications. If you are on PHP 5.4+ and would like to use PHP's built-in development server, you may use the `serve` Artisan command:
 
 ```shell
 php artisan serve

@@ -1,20 +1,14 @@
----
-icon: gear
-expanded: true
-title: Commands List | DEVserv.ME
+---: Commands List | DEVserv.ME
 label: API Proxying for Dev
 desc: The entire list of Quasar CLI commands.
-order: 95
+order: 36
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
 tags: [dev,tools,js,frontend,backend,devtools,quasar,commands]
----
-
-Familiarize yourself with the list of available commands inside a Quasar project:
+---Familiarize yourself with the list of available commands inside a Quasar project:
 
 ``` bash
 $ quasar
@@ -456,7 +450,7 @@ quasar mode remove pwa
 
 This command is useful to describe the API of any Quasar components/directives/plugins that your project is using. **It is specific to your Quasar version installed in your project folder.**
 
-Examples: `$ quasar describe QIcon`, `$ quasar describe TouchPan`, `$ quasar describe Cookies`.
+Examples: `$ quasar describe Q
 
 ```bash
 quasar describe -h
@@ -468,19 +462,19 @@ quasar describe -h
     $ quasar describe <component/directive/Quasar plugin>
 
     # display everything:
-    quasar describe QIcon
+    quasar describe Q
 
     # displaying only props:
-    quasar describe QIcon -p
+    quasar describe Q
     # displaying props and methods only:
-    quasar describe QIcon -p -m
+    quasar describe Q
     # filtering by "si":
-    quasar describe QIcon -f si
+    quasar describe Q
     # filtering only props by "co":
-    quasar describe QIcon -p -f co
+    quasar describe Q
 
     # Open docs URL:
-    quasar describe QIcon -d
+    quasar describe Q
 
   Options
     --filter, -f <filter> Filters the API
@@ -497,15 +491,15 @@ quasar describe -h
 ```
 
 ```bash
-quasar describe QIcon
+quasar describe Q
 
- Describing QIcon component API
+ Describing Q
  Description is based on your project's Quasar version
 
  Properties
 
    name (String)
-     Description: Name of the icon, following Quasar convention
+     Description: Name of the 
      Examples:
        map
        ion-add
@@ -523,10 +517,10 @@ quasar describe QIcon
        2rem
 
    left (Boolean)
-     Description: Apply a standard margin on the left side. Useful if icon is on the right side of something.
+     Description: Apply a standard margin on the left side. Useful if 
 
    right (Boolean)
-     Description: Apply a standard margin on the right side. Useful if icon is on the left side of something.
+     Description: Apply a standard margin on the right side. Useful if 
 
  Slots
 
@@ -619,11 +613,11 @@ quasar run -h
     quasar run <extension-id> <cmd> [args, params]
     quasar <extension-id> <cmd> [args, params]
 
-    quasar run iconify create pic -s --mark some_file
-    quasar iconify create pic -s --mark some_file
-        # Note: "iconify" is an example and not a real extension.
-        # Looks for installed extension called "iconify"
-        # (quasar-app-extension-iconify extension package)
+    quasar run 
+    quasar 
+        # Note: "
+        # Looks for installed extension called "
+        # (quasar-app-extension-
         # and runs its custom defined "create" command
         # with "pic" argument and "-s --mark some_file" params
 

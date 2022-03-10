@@ -1,3 +1,13 @@
+---: Migrations | DEVserv.ME
+label: Migrations
+order: 9
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,frontend,backend,devtools,php,laravel]
+---
 # Migrations
 
 To create a table to hold our data, we'll use the Laravel migration system. Migrations let you expressively define modifications to your database, and easily share them with the rest of your team.

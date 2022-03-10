@@ -1,7 +1,6 @@
----
-title: Install Node.js with NVM
+---: Install Node.js with NVM
 label: Node.js with NVM
-order: 94
+order: 51
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

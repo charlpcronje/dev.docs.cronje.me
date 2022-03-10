@@ -1,5 +1,13 @@
-# Run Shell Exec as sudo
-
+---: Run Shell Exec as sudo | DEVserv.ME
+label: Run Shell Exec as sudo
+order: -2
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,frontend,backend,devtools,php,laravel]
+---
 ## Solution using a binary wrapper (with suid bit)
 
 1. Create a script (preferrably .sh) that contains what you want to be ran as root.

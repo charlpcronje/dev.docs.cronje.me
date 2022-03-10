@@ -1,18 +1,13 @@
----
-icon: pulse
-expanded: true
-title: Quasar Testing | DEVserv.ME
+---: Quasar Testing | DEVserv.ME
 label: Quasar Testing
-order: 45
+order: 26
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,js,frontend,backend,devtools,quasar,test,testing,unit]
----
-
-#
+---#
 
 > You're looking at Quasar v1 testing docs. While AEs migration to support Quasar v2 is in progress, you can find the documentation for Quasar v2 versions [here](https://github.com/quasarframework/quasar-testing/tree/next)
 >

@@ -1,9 +1,6 @@
----
-icon: star
-expanded: true
-title: Vue.js Composition API | DEVserv.ME
+---: Vue.js Composition API | DEVserv.ME
 label: Composition API
-order: 60
+order: 41
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

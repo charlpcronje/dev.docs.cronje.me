@@ -1,17 +1,13 @@
----
-title: Dev Tools - Route Class
+---: Dev Tools - Route Class
 label: PHP Route Class
-order: 96
+order: 60
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,routes]
----
-
-# PHP Route Class
+---# PHP Route Class
 
 Uses Regular Expressions and anonymous functions to create a simple and fast routing system.
 

@@ -1,7 +1,4 @@
----
-icon: file-zip
-expanded: true
-title: Quasar Global Components | DEVserv.ME
+---title: Quasar Global Components | DEVserv.ME
 label: Global Components
 order: 65
 authors:
@@ -11,9 +8,7 @@ authors:
     avatar: https://assets.devserv.me/avatars/darker.jpg
 date: 2022-01-25
 tags: [dev,tools,js,frontend,backend,devtools,quasar,global,components]
----
-
-## Create new Boot file
+---## Create new Boot file
 
 ```shell
 quasar new boot RegisterGlobalCOmponents
