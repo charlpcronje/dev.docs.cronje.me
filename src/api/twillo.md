@@ -1,11 +1,26 @@
-# Twilio API for WhatsApp
-
-> Send Whatsapp messages using twilio
+---
+label: Twilio Public API
+order: 56
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
+---
+# Twilio API for WhatsApp | Send Whatsapp messages using twilio
 
 [https://www.youtube.com/watch?v=Su8ui2uhipI](https://www.youtube.com/watch?v=Su8ui2uhipI)
 
-- The `Twilio` API for WhatsApp is a new messaging and notifications channel for your business with a simple API.
+The `Twilio` API for WhatsApp is a new messaging and notifications channel for your business with a simple API.
 This video all about how we can send WhatsApp message from Twilio.
+Contact Us:
+Visit us: [https://snowexpertrohit.com](https://snowexpertrohit.com)
+Follow Me : [https://www.facebook.com/rohitkumar0094](https://www.facebook.com/rohitkumar0094)
+Follow Our Page: [https://www.facebook.com/snowexpert33](https://www.facebook.com/snowexpert33)
+WhatsApp/Telegram us on: +91-8250739311
+[https://chat.whatsapp.com/HFbTe4QTcYA](https://chat.whatsapp.com/HFbTe4QTcYA)...
+Telegram Channel: [https://t.me/SnowExpertRohit](https://t.me/SnowExpertRohit)
 
 ## SMS API | Twilio | Sending SMS in PHP
 

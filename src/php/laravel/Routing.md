@@ -17,4 +17,4 @@ Routes can also be attached to controller classes. For example:
     Route::get('users', 'UserController@getIndex');
 ```
 
-This route informs the framework that requests to the `/users` route should call the `getIndex` method on the `UserController` class. For more information on controller routing, check out the `controller documentation/docs/4.2/controllers`.
+This route informs the framework that requests to the `/users` route should call the `getIndex` method on the `UserController` class. For more information on controller routing, check out the [controller documentation](/docs/4.2/controllers).

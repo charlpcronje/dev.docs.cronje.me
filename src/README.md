@@ -24,7 +24,7 @@ Bash is not the most exciting topic and I would a very nice feferecne to most if
 
 ## [Dev Tools](./devTools/README.md)
 
-- I created a few development tools that can plug into any `backend` or `frontend` to give me instant `feedback` on any requested `modulue` / `class`, `method` or `function`.
+- I created a few development tools that can plug into any `backend` or `frontend` to give me instant `feedback` on any requested `module` / `class`, `method` or `function`
 - It is also important to get `feedback` on the `time spend` executing certain tasks.
 - Since `PHP 7.4` when they introduced the `PHP RFC: Preload` I saw an oportunity by preloading the `dev tools`, I get to `hook` into any code loaded afterwards, giving me access to monitor any system without interfering with any existing code.
 
@@ -36,19 +36,34 @@ Bash is not the most exciting topic and I would a very nice feferecne to most if
 - [Log Helpers](./devTools/logHelpers.md)
 - [Routing](./devTools/route.md)
 
-#### 3rd Party MySQL Client
+### 3rd Party MySQL Client
 
 Adminer is a single PHP file web based mysql client, very handy for remote SQL Management
 
 - [Adminer](./devTools/adminer.md);
+
+## Public API's
+
+- [Twillo Public WhatsApp API](./api/twillo.md)
 
 ## Chrome Extensions
 
 - [Manifest V3](./chromeExt/manifestV3.md)
 - [Options Page](./chromeExt/optionsPage.md)
 
+## Frontend Development
 
-## JavaScript
+- [Prototyping](./prototyping/README.md)
+- [Preloading & Prefetching](./html/prefetchAndPreload.md)
+- [Themes & Design](./themesAndDesign.md)
+- [CORS](./cors.md)
+- [UNOCSS](./css/unocss.md)
+
+### JavaScript
+
+- [GraphQL](./js/graphql/README.md)
+- [GraphQL & Axios](./js/graphql/axios.md)
+
 ### Node.js - Server Side Scripting
 
 - [Node Version Manager](./node/nvm.md)
@@ -63,11 +78,11 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 ### Vue.js Framework
 
 - [Vue.js](js/vue/README.md)
-- [Install Vue and it's SFC, CLI](/js/vue/installVue.md)
-- [Different Builds](/js/vue/differentBuilds.md)
-- [Composition API](/js/vue/composition/api.md)
-- [Fetching Data](/js/vue/composition/fetchData.md)
-- [Setup Script Method](/js/vue/composition/setupScripts.md)
+- [Install Vue and it's SFC, CLI](./js/vue/installVue.md)
+- [Different Builds](./js/vue/differentBuilds.md)
+- [Composition API](./js/vue/composition/api.md)
+- [Fetching Data](./js/vue/composition/fetchData.md)
+- [Vue Web Storage](./js/vue/vueWebStorage.md)
 
 ### Quasar JS Frameworks  
 
@@ -85,31 +100,61 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [Quasar Testing](./js/quasar/quasarTesting.md)
 - [Dev For Public](./js/quasar/devForPublic.md)
 
-## Frontend Development
+### State Management
 
-- [Prototyping](/prototyping/README.md)
-- [Preloading & Prefetching](/html/prefetchAndPreload.md)
-- [Themes & Design](/themesAndDesign.md)
-- [CORS](/cors.md)
-- [UNOCSS](/css/unocss.md)
+- [Custom State Management](customState.md)
+
+### Build Tools
+
+- [Vite](./js/vite/README.md)
+
+## Perl Development
+
+- [Getting started with Perl](perl/gettingStarted.md)
+- [Perl Scripting IDE's](perl/perlIDEs.md)
+- [Argument Parsing Sub-Routines](perl/argsSubRoutines.md)
+- [Dots in Perl](perl/dotsInPerl.md)
+- [Singletons](perl/singleton.md)
+- [Static Variables](perl/staticVars.md)
+- [Variable variables](perl/variableVariables.md)
+
+### Perl Libraries
+
+- [Hash.Digger](perl/libs/Hash.Digger.md)
+- [!file Hash.Digger Module](libs/Hash.Digger.pm)
+- [Class.Tiny](perl/tiny/Class.Tiny.md)
+- [Config.Tiny](perl/tiny/Config.Tiny.md)
+- [HTML.Tiny](perl/tiny/HTML.Tiny.md)
+- [Path.Tiny](perl/tiny/Path.Tiny.md)
+- [Set.Tiny](perl/tiny/Set.Tiny.md)
+- [SQL.Tiny](perl/tiny/SQL.Tiny.md)
+- [XML.Tiny](perl/tiny/XML.Tiny.md)
+
+## Perl Regular Expressions
+
+- [Regex Basics](perl/regex/regexBasics.md)
+- [Regex for SSH Agent](perl/regex/regexForSSHAgent.md)
+- [Sample Data](perl/regex/sampleData.md)
+- [Sub Strings](perl/regex/subStrings.md)
+- [Regex in Perl](perl/regex.md)
 
 ## PHP Development
 
-- [PHP](/php/README.md)
-- [Preload](/php/preload.md)
-- [Laravel](/php/laravel/README.md)
-- [Run shell_exec as sudo](/php/shellExec/README.md)
+- [PHP](./php/README.md)
+- [Preload](./php/preload.md)
+- [Laravel](./php/laravel/README.md)
+- [Run shell_exec as sudo](./php/shellExec/README.md)
 
 ## RStudio IDE
-### - [R Programming](/rLang/README.md)
-  - [Awesome R](/rLang/awesomer.md)
-  - [Install R](/rLang/installR.md)
-  - [R Studio](/rLang/rstudio.md)
-### - [R Markdown](/rLang/rmd.md)
-  - [Markdown Templates](/rLang/mdTemplates.md)
-  - [Portfolio Template](/rLang/cvTemplare.md)
-  - [Quarto guide](/rLang/quartoGuide.md)
-### - [Web-Scraping](/rLang/webScraping.md)
+### - [R Programming](./rLang/README.md)
+  - [Awesome R](./rLang/awesomer.md)
+  - [Install R](./rLang/installR.md)
+  - [R Studio](./rLang/rstudio.md)
+### - [R Markdown](./rLang/rmd.md)
+  - [Markdown Templates](./rLang/mdTemplates.md)
+  - [Portfolio Template](./rLang/cvTemplare.md)
+  - [Quarto guide](./rLang/quartoGuide.md)
+### - [Web-Scraping](./rLang/webScraping.md)
 
 ## Icon Sets
 

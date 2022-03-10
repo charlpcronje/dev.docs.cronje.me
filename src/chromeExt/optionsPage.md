@@ -1,7 +1,7 @@
 ---
 title: Options Page | DEVserv.ME
 label: Options Page
-order: 95
+order: 55
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

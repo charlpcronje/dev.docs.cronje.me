@@ -1,14 +1,16 @@
 ---
-title: UNOCSS | DEVserv.ME
-label: UNOCSS 
-order: 96
+title: UNOCSS - CSS Framework | DEVserv.ME
+label: UNOCSS
+order: 1
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-tags: [dev,extension,chrome,manifest,v3,UNOCSS]
+date: 2022-01-25
+tags: [dev,tools,start,frontend,css,developer,devtools,uno,unocss]
 ---
+# @unocss/core
 
 [UNOCSS Playground](https://unocss.antfu.me/)
 

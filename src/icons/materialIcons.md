@@ -1,14 +1,4 @@
----
-title: Material Icons - DEVserv.ME
-label: Material Icons 
-order: 96
-authors:
-  - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
-tags: [dev,js,php,frontend,developer,devtools,material,icon]
----
+# Material Design Icons
 
 Material Design Icons' growing icon collection allows designers and developers targeting various platforms to download icons in the format, color and size they need for any project.
 
