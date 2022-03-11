@@ -1,5 +1,14 @@
-# Vue.js
-
+---
+title: Vue.js Framework | DEVserv.ME
+label: Vue.js Framework
+order: 44
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,frontend,backend,devtools,vue,js]
+---
 - [Install Vue and it's SFC, CLI](installVue.md)
 - [Different Builds](differentBuilds.md)
 

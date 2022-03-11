@@ -1,4 +1,5 @@
----: Themes & Design | DEVserv.ME
+---
+title: Themes & Design | DEVserv.ME
 label: Themes & Design
 order: 21
 authors:
@@ -8,7 +9,6 @@ authors:
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 ---
-# Themes and Design
 
 On the following websites contains free web and template designs
 
