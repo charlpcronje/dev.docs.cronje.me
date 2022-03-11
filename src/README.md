@@ -15,17 +15,6 @@ tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 |__/[___ \/ [___|___|__||   |  |[___| \|  |   * |  |[___
                                                         
 ```
-## RStudio IDE
-
-- [R Programming](./rLang/README.md)
-   - [Awesome R](./rLang/awesomer.md)
-   - [Install R](./rLang/installR.md)
-   - [R Studio](./rLang/rstudio.md)
-- [R Markdown](./rLang/rmd.md)
-  - [Markdown Templates](./rLang/mdTemplates.md)
-  - [Portfolio Template](./rLang/cvTemplare.md)
-  - [Quarto guide](./rLang/quartoGuide.md)
-- [Web-Scraping](./rLang/webScraping.md)
 
 ## Bash Scripting
 
@@ -129,14 +118,13 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 ### Perl Libraries
 
 - [Hash.Digger](perl/libs/Hash.Digger.md)
-- [!file Hash.Digger Module](libs/Hash.Digger.pm)
-- [Class.Tiny](perl/tiny/Class.Tiny.md)
-- [Config.Tiny](perl/tiny/Config.Tiny.md)
-- [HTML.Tiny](perl/tiny/HTML.Tiny.md)
-- [Path.Tiny](perl/tiny/Path.Tiny.md)
-- [Set.Tiny](perl/tiny/Set.Tiny.md)
-- [SQL.Tiny](perl/tiny/SQL.Tiny.md)
-- [XML.Tiny](perl/tiny/XML.Tiny.md)
+- [Class.Tiny](perl/libs/Class.Tiny.md)
+- [Config.Tiny](perl/libs/Config.Tiny.md)
+- [HTML.Tiny](perl/libs/HTML.Tiny.md)
+- [Path.Tiny](perl/libs/Path.Tiny.md)
+- [Set.Tiny](perl/libs/Set.Tiny.md)
+- [SQL.Tiny](perl/libs/SQL.Tiny.md)
+- [XML.Tiny](perl/libs/XML.Tiny.md)
 
 ### Perl Regular Expressions
 
@@ -154,16 +142,18 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [Laravel CORS](./php/laravel/cors.md)
 - [Run shell_exec as sudo](./php/shellExec/README.md)
 
+
 ## RStudio IDE
-### - [R Programming](./rLang/README.md)
+
+- **[R Programming](./rLang/README.md)**
   - [Awesome R](./rLang/awesomer.md)
   - [Install R](./rLang/installR.md)
   - [R Studio](./rLang/rstudio.md)
-### - [R Markdown](./rLang/rmd.md)
+- **[R Markdown](./rLang/rmd.md)**
   - [Markdown Templates](./rLang/mdTemplates.md)
   - [Portfolio Template](./rLang/cvTemplare.md)
   - [Quarto guide](./rLang/quartoGuide.md)
-### - [Web-Scraping](./rLang/webScraping.md)
+- **[Web-Scraping](./rLang/webScraping.md)**
 
 ## Icon Sets
 

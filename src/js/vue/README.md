@@ -1,5 +1,5 @@
 ---
-title: Vue.js Framework | DEVserv.ME
+title: Vue.js | DEVserv.ME
 label: Vue.js Framework
 order: 100
 authors:
@@ -9,6 +9,9 @@ authors:
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,js,frontend,backend,devtools,vue,js]
 ---
+
+## Installation
+
 - [Install Vue and it's SFC, CLI](installVue.md)
 - [Different Builds](differentBuilds.md)
 
@@ -21,7 +24,6 @@ tags: [dev,tools,js,frontend,backend,devtools,vue,js]
 ## Axios & GraphQL
 
 - [Query GraphQL with Axios](graphql/axios.md)
-
 - [Command List](quasar/commandList.md)
 - [Boot Files](quasar/bootFiles.md)
 

@@ -10,16 +10,14 @@
 
 ## Libraries
 
-[!file Hash.Digger Module](libs/Hash.Digger.pm)
-
 - [Hash.Digger](libs/Hash.Digger.md)
-- [Class.Tiny](tiny/Class.Tiny.md)
-- [Config.Tiny](tiny/Config.Tiny.md)
-- [HTML.Tiny](tiny/HTML.Tiny.md)
-- [Path.Tiny](tiny/Path.Tiny.md)
-- [Set.Tiny](tiny/Set.Tiny.md)
-- [SQL.Tiny](tiny/SQL.Tiny.md)
-- [XML.Tiny](tiny/XML.Tiny.md)
+- [Class.Tiny](libs/Class.Tiny.md)
+- [Config.Tiny](libs/Config.Tiny.md)
+- [HTML.Tiny](libs/HTML.Tiny.md)
+- [Path.Tiny](libs/Path.Tiny.md)
+- [Set.Tiny](libs/Set.Tiny.md)
+- [SQL.Tiny](libs/SQL.Tiny.md)
+- [XML.Tiny](libs/XML.Tiny.md)
 
 ## Regular Expressions
 

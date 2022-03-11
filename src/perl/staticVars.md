@@ -1,5 +1,5 @@
 ---
-title: Static and state variables in Perl | DEVserv.ME
+title: Static and state vars | DEVserv.ME
 label: Static, state vars
 order: 53
 authors:

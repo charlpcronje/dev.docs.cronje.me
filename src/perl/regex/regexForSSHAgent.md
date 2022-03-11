@@ -29,12 +29,15 @@ To capture a substring for later use, put parentheses around the sub-pattern tha
 /(\d)(\d)/  # Match two digits, capturing them into $1 and $2
 > /(\d+)/     # Match one or more digits, capturing them all into $1
 > /(\d)+/     # Match a digit one or more times, capturing the last into $1
+```
 
 Note the difference between the second and third patterns. The second form is usually what you want. The third form does _not_ create multiple variables for multiple digits. Parentheses are numbered when the pattern is compiled, not when it is matched.
 
-<a name="INDEX-1646">. Captured strings are often called _backreferences_ because they refer back to parts of the captured text. There are actually two ways to get at these backreferences. The numbered variables you've seen are how you get at backreferences outside of a pattern, but inside the pattern, that doesn't work. You have to use \1, \2, etc.[[9]](#FOOTNOTE-9) So to find doubled words like "the the" or "had had", you might use this pattern:
+Captured strings are often called _backreferences_ because they refer back to parts of the captured text. There are actually two ways to get at these back references. The numbered variables you've seen are how you get at backreferences outside of a pattern, but inside the pattern, that doesn't work. You have to use 1, 2, etc. So to find doubled words like "the the" or "had had", you might use this pattern:
 
+```python
 /\b(\w+) \1\b/i
+```
 
 But most often, you'll be using the $1 form, because you'll usually apply a pattern and then do something with the substrings. Suppose you have some text (a mail header) that looks like this:
 
@@ -45,28 +48,30 @@ From: gnat@perl.com
 
 and you want to construct a hash that maps the text before each colon to the text afterward. If you were looping through this text line by line (say, because you were reading it from a file) you could do that as follows:
 
+```python
 while (<>) {
 >     /^(.*?): (.*)$/;    # Pre-colon text into $1, post-colon into $2
 >     $fields{$1} = $2;
 > }
+```
 
-Like <tt class="literal", ><, and /tt>, these numbered variables are dynamically scoped through the end of the enclosing block or eval string, or to the next successful pattern match, whichever comes first. You can use them in the righthand side (the replacement part) of a substitute, too:
+These numbered variables are dynamically scoped through the end of the enclosing block or eval string, or to the next successful pattern match, whichever comes first. You can use them in the righthand side (the replacement part) of a substitute, too:
 
+```python
 s/^(\S+) (\S+)/$2 $1/;  # Swap first two words
+```
 
-<a name="INDEX-1647">. Groupings can nest, and when they do, the groupings are counted by the location of the left parenthesis. So given the string "Primula Brandybuck", the pattern:
+Groupings can nest, and when they do, the groupings are counted by the location of the left parenthesis. So given the string "Primula Brandybuck", the pattern:
 
-> <a name="FOOTNOTE-9">. 
-> 
-> [9] You can't use $1 for a backreference within the pattern because that would already have been interpolated as an ordinary variable back when the regex was compiled. So we use the traditional \1 backreference notation inside patterns. For two- and three-digit backreference numbers, there is some ambiguity with octal character notation, but that is neatly solved by considering how many captured patterns are available. For instance, if Perl sees a \11 metasymbol, it's equivalent to $11 only if there are at least 11 substrings captured earlier in the pattern. Otherwise, it's equivalent to \011, that is, a tab character.
 
+You can't use `$1` for a backreference within the pattern because that would already have been interpolated as an ordinary variable back when the regex was compiled. So we use the traditional 1 backreference notation inside patterns. For two- and three-digit backreference numbers, there is some ambiguity with octal character notation, but that is neatly solved by considering how many captured patterns are available. For instance, if Perl sees a 11 metasymbol, it's equivalent to `$11` only if there are at least 11 substrings captured earlier in the pattern. Otherwise, it's equivalent to \011, that is, a tab character.
+
+```python
 /^((\w+) (\w+))$/
+```
 
-would capture "Primula Brandybuck" into $1, "Primula" into $2, and "Brandybuck" into $3. This is depicted in [Figure 5-1](ch05_07.htm#perl3-backrefs).
-
-<a name="perl3-backrefs">. 
-
-#### Figure 5.1\. Creating backreferences with parentheses
+would capture "Primula Brandybuck" into `$1`, "Primula" into `$2`, and "Brandybuck" into `$3`. This is depicted in 
+#### Figure 5.1. Creating backreferences with parentheses
 
 Patterns with captures are often used in list context to populate a list of values, since the pattern is smart enough to return the captured substrings as a list:
 
@@ -80,9 +85,10 @@ With the  modifier, a pattern can return multiple substrings from multiple match
 ```python
 %fields = /^(.*?): (.*)$/gm;
 ```
+
 The pattern matches four times, and each time it matches, it finds two substrings. The `/gm` match returns all of these as a flat list of eight strings, which the list assignment to `%fields` will conveniently interpret as four key/value pairs, thus restoring harmony to the universe.
 
->Several other special variables deal with text captured in pattern matches. >< contains the entire matched string,everything to the left of the match, <everything to the right. <tt $+ contains the contents of the last backreference.
+>Several other special variables deal with text captured in pattern matches. >< contains the entire matched string,everything to the left of the match, to the right. `$+` contains the contents of the last backreference.
 
 ```python
 $_ = "Speak, <EM>friend</EM>, and enter.";
@@ -130,11 +136,12 @@ In the remainder of the chapter, we'll see many more regex extensions, all of wh
 
 ```python
 @fields = split(/\b(?:a|b|c)\b/)
-```
+
 
 it's like:
 
 @fields = split(/\b(a|b|c)\b/)
+```
 
 . . but doesn't spit out extra fields. (The split operator is a bit like m//g in that it will emit extra fields for all the captured substrings within the pattern. Ordinarily, split only returns what it `_didn't_` match. For more on split see [Chapter 29, "Functions"](ch29_01.htm).).
 
@@ -142,6 +149,7 @@ it's like:
 
 You may `_cloister_` the `/i`, `/m`, `/s`, and `/x` modifiers within a portion of your pattern by inserting them (without the slash) between the `?` and `: of the clustering notation. If you say:
 
+```python
 /Harry (?i:s) Truman/
 
 it matches both "Harry S Truman" and "Harry s Truman", whereas:
@@ -157,6 +165,7 @@ matches all five, by combining the /i and /x modifiers within the cloister.
 You can also subtract modifiers from a cloister with a minus sign:
 
 /Harry (?x-i: [A-Z] \.? \s )?Truman/i
+```
 
 This matches any capitalization of the name--but if the middle initial is provided, it must be capitalized, since the /i applied to the overall pattern is suspended inside the cloister.
 
@@ -192,10 +201,10 @@ But most often, you'll be using the $ form, because you'll usually apply a patte
 and you want to construct a hash that maps the text before each colon to the text afterward. If you were looping through this text line by line (say, because you were reading it from a file) you could do that as follows:
 
 ```python
-> while (<>) {
->     /^(.*?): (.*)$/;    # Pre-colon text into $1, post-colon into $2
->     $fields{$1} = $2;
-> }
+while (<>) {
+    /^(.*?): (.*)$/;    # Pre-colon text into $1, post-colon into $2
+    $fields{$1} = $2;
+}
 ```
 
 Like , and , these numbered variables are dynamically scoped through the end of the enclosing block or `eval` string, or to the next successful pattern match, whichever comes first. You can use them in the righthand side (the replacement part) of a substitute, too:
@@ -230,12 +239,12 @@ The pattern matches four times, and each time it matches, it finds two substring
 Several other special variables deal with text captured in pattern matches. contains the entire matched string, everything to the left of the match, /tt> everything to the right. $+ contains the contents of the last backreference.
 
 ```python
-> $_ = "Speak, <EM>friend</EM>, and enter.";
-> m[ (<.*?>) (.*?) (</.*?>) ]x;     # A tag, then chars, then an end tag
-> print "prematch:              #`Speak,"
-> print "match:                 #fri"
-> print "postmatch:             "\n";       
-> print "lastmatch:             "\n";       
+$_ = "Speak, <EM>friend</EM>, and enter.";
+m[ (<.*?>) (.*?) (</.*?>) ]x;     # A tag, then chars, then an end tag
+print "prematch:              #`Speak,"
+print "match:                 #fri"
+print "postmatch:             "\n";       
+print "lastmatch:             "\n";       
 ```
 
 For more explanation of these magical Elvish variables (and for a way to write them in English), see [Chapter 28, "Special Names"](ch28_01.htm).
@@ -243,13 +252,13 @@ For more explanation of these magical Elvish variables (and for a way to write t
 The `@-` (`@LAST_MATCH_START`) array holds the offsets of the beginnings of any submatches, and `@+` (`@LAST_MATCH_END`) holds the offsets of the ends:
 
 ```python
-> #!/usr/bin/perl
-> $alphabet = "abcdefghijklmnopqrstuvwxyz";
-> $alphabet =~ /(hi).*(stu)/;
-> 
-> print "The entire match began at $-[0] and ended at $+[0]\n";
-> print "The first  match began at $-[1] and ended at $+[1]\n";
-> print "The second match began at $-[2] and ended at $+[2]\n";
+#!/usr/bin/perl
+$alphabet = "abcdefghijklmnopqrstuvwxyz";
+$alphabet =~ /(hi).*(stu)/;
+
+print "The entire match began at $-[0] and ended at $+[0]\n";
+print "The first  match began at $-[1] and ended at $+[1]\n";
+print "The second match began at $-[2] and ended at $+[2]\n";
 ```
 
 If you really want to match a literal parenthesis character instead of having it interpreted as a metacharacter, backslash it:

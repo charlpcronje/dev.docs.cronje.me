@@ -1,5 +1,5 @@
 ---
-title: Library JS DOC | DEVserv.ME
+title: Library - JS DOC | DEVserv.ME
 label: Library - JS DOC
 order: 103
 authors:
@@ -8,7 +8,7 @@ authors:
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,js,backend,developer,js,doc,jsdoc]
-___
+---
 
 
 Here are some useful links to explain JS DOC and why it is helpful

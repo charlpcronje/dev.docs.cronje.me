@@ -1,6 +1,6 @@
 ---
-title: Sub-String Marching | DEVserv.ME
-label: Sub-String Marching
+title: Sub-String Matching | DEVserv.ME
+label: Sub-String Matching
 order: 29
 authors:
   - name: Charl Cronje
@@ -8,7 +8,7 @@ authors:
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 ---
-# Sub-String Marching for [suggested regex](regexForSSHAgent.md)
+# Sub-String Matching for [sample data](regexForSSHAgent.md)
 
 [Source](https://www.geeksforgeeks.org/perl-substr-function/)
 

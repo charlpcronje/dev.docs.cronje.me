@@ -1,6 +1,6 @@
 ---
-title: Library - cash.js
-label: Library - cash.js
+title: Cash.js Library
+label: Cash.js Library
 order: 104
 authors:
   - name: Charl Cronje
@@ -8,7 +8,7 @@ authors:
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,js,backend,developer,devtools,lib,cash]
-___
+---
 
 > [cash.js Docs](https://kenwheeler.github.io/cash/#docs)
 

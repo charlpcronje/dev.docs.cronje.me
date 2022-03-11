@@ -1,6 +1,6 @@
 ---
 title: Variable Variables | DEVserv.ME
-label: SVariable Variables
+label: Variable Variables
 order: 52
 authors:
   - name: Charl Cronje

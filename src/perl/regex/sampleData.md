@@ -9,8 +9,7 @@ authors:
     avatar: https://assets.devserv.me/avatars/darker.jpg
 ---
 
-> Here is the sample data that I used to create the example referenced here at *2. Example*
-[Regular Expressions for SSH Agent](regexForSSHAgent.md)
+> Here is the sample data that I used to create the example referenced here at *2. Example:* [Regular Expressions for SSH Agent](regexForSSHAgent.md)
 
 ```shell
 FortiWeb commands
