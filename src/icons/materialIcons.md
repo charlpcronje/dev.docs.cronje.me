@@ -1,17 +1,13 @@
-<<<<<<< HEAD
-# Material Design Icons
-=======
----: Material 
-label: Material 
-order: -14
+---
+title: Material Design Icons - Log Helpers
+label: Material Design Icons
+order: 1
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-tags: [dev,js,php,frontend,developer,devtools,material,
----Material Design 
->>>>>>> 70a75ba3426a58d663b97d7527372018129ea6b9
+---
 
 > Material Design 
 

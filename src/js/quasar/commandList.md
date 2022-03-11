@@ -1,14 +1,17 @@
----: Commands List | DEVserv.ME
+---
+title: Commands List | DEVserv.ME
 label: API Proxying for Dev
 desc: The entire list of Quasar CLI commands.
-order: 36
+order: 92
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,js,frontend,backend,devtools,quasar,commands]
----Familiarize yourself with the list of available commands inside a Quasar project:
+---
+
+Familiarize yourself with the list of available commands inside a Quasar project:
 
 ``` bash
 $ quasar

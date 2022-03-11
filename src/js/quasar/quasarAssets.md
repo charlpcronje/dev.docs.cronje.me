@@ -1,13 +1,15 @@
----: Handling Assets | DEVserv.ME
+---
+title: Handling Assets | DEVserv.ME
 label: Quasar Assets
-order: 33
+order: 82
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,js,frontend,backend,devtools,quasar,boot,plugin,assets]
----You will notice in the project structure we have two directories for assets: `/public/` and `/src/assets/`. What is the difference between them? Some are static assets while the others are processed and embedded by the build system.
+---
+You will notice in the project structure we have two directories for assets: `/public/` and `/src/assets/`. What is the difference between them? Some are static assets while the others are processed and embedded by the build system.
 
 So let's try to answer the question above. We'll first talk about using regular assets then we'll see what the difference is for static assets.
 

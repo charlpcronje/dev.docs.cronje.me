@@ -1,18 +1,17 @@
----: Install R | DEVserv.ME
+---
+title: Install R | DEVserv.ME
 label: Install R
-order: 101
+order: 10
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 ---
 # Install R Programming Langauge
-
 ## Install Procedure
 
-The procedure here for enabling R and RStudio is very much so a traditional installation with a few caveats at the end of each section. In particular, the caveats relate to installing packages once, updating packages once, and disabling calls to CRAN to prevent console crashes.
+The procedure here for enabling R and RStudio is very much so a traditional installation with a few caveats at the end of each section. In particular, the caveats relate to installing packages once, updating packages once, and disabling calls to `CRAN` to prevent console crashes.
 
 Code for the procedure can be found at:
 

@@ -1,10 +1,9 @@
-: JS Libraries | DEVserv.ME
+title: JS Libraries | DEVserv.ME
 label: JS Libraries
-order: 90
+order: 105
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
 tags: [dev,tools,start,js,frontend,developer,devtools,cash,jsdoc,preact]

@@ -1,10 +1,9 @@
-: Node.js | DEVserv.ME
+title: Node.js | DEVserv.ME
 label: Node.js
-order: 98
+order: 112
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
 tags: [dev,tools,js,frontend,backend,node,node cli,nvm]

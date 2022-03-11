@@ -1,13 +1,14 @@
----: API Proxying for Dev | DEVserv.ME
+---
+title: API Proxying for Dev | DEVserv.ME
 label: API Proxying for Dev
-order: 30
+order: 81
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
----# API Proxying for Dev
+---
 
 When integrating a project folder (created by Quasar CLI) with an existing backend, a common need is to access the backend API when using the dev server. To achieve this, we can run the dev server and the API backend side-by-side (or remotely), and let the dev server proxy all API requests to the actual backend.
 

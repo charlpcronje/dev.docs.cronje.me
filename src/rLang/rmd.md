@@ -1,16 +1,29 @@
----: R Markdown | DEVserv.ME
+---
+title: R Markdown | DEVserv.ME
 label: R Markdown
-order: 101
+order: 9
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
----R Markdown documents are fully reproducible. Use a productive [notebook interface](https://bookdown.org/yihui/rmarkdown/notebook.html) to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL.
+---
 
-R Markdown supports dozens of static and dynamic output formats including [HTML](https://bookdown.org/yihui/rmarkdown/html-document.html), [PDF](https://bookdown.org/yihui/rmarkdown/pdf-document.html), [MS Word](https://bookdown.org/yihui/rmarkdown/word-document.html), [Beamer](https://bookdown.org/yihui/rmarkdown/beamer-presentation.html), [HTML5 slides](https://bookdown.org/yihui/rmarkdown/ioslides-presentation.html), [https://bookdown.org/yihui/rmarkdown/tufte-handouts.html](Tufte-style handouts), [https://bookdown.org](books),[dashboards](https://rmarkdown.rstudio.com/flexdashboard/),
- [shiny applications](https://bookdown.org/yihui/rmarkdown/shiny-documents.html), [scientific articles](https://github.com/rstudio/rticles)>, [websites](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html) and more
+R Markdown documents are fully reproducible. Use a productive [notebook interface](https://bookdown.org/yihui/rmarkdown/notebook.html) to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL.
+
+R Markdown supports dozens of static and dynamic output formats including 
+- [HTML](https://bookdown.org/yihui/rmarkdown/html-document.html) 
+- [PDF](https://bookdown.org/yihui/rmarkdown/pdf-document.html) 
+- [MS Word](https://bookdown.org/yihui/rmarkdown/word-document.html)
+- [Beamer](https://bookdown.org/yihui/rmarkdown/beamer-presentation.html) 
+- [HTML5 slides](https://bookdown.org/yihui/rmarkdown/ioslides-presentation.html), 
+- [https://bookdown.org/yihui/rmarkdown/tufte-handouts.html](Tufte-style handouts) 
+[books](https://bookdown.org),
+- [dashboards](https://rmarkdown.rstudio.com/flexdashboard/),
+- [shiny applications](https://bookdown.org/yihui/rmarkdown/shiny-documents.html), 
+- [scientific articles](https://github.com/rstudio/rticles)>, 
+- [websites](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html) and more
 
 
 ## Full R Markdown Docs
@@ -59,7 +72,6 @@ R Markdown supports dozens of static and dynamic output formats including [HTML]
 ### Dashboards
 
 - [Daily Operation Dashboard](https://rpubs.com/sdplus/vulcan74)
-
 
 ### Authoring Books and Technical Documents with R Markdown
 

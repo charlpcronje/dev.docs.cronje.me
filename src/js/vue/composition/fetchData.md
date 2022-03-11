@@ -1,7 +1,7 @@
 ---
 title: Fetching Data (http requests) | DEVserv.ME
 label: Fetching Data
-order: 40
+order: 92
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

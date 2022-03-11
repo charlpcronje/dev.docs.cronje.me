@@ -1,13 +1,16 @@
----: Boot Plugin in Quasar | DEVserv.ME
+---
+title: Boot Plugin in Quasar | DEVserv.ME
 label: Boot Plugin
-order: 33
+order: 84
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,js,frontend,backend,devtools,quasar,boot,plugin]
----Quasar `CLI` structures project differently as compared to a standard Vue CLI app. As a result, you cannot just follow examples on the Internets blindly and use `Vue.use()`, or start changing code in `main.js`. There are, however, great ways of addressing the same problems with slightly different solutions.
+---
+
+Quasar `CLI` structures project differently as compared to a standard Vue CLI app. As a result, you cannot just follow examples on the Internets blindly and use `Vue.use()`, or start changing code in `main.js`. There are, however, great ways of addressing the same problems with slightly different solutions.
 
 Enter `boot files`. These were simply called app plugins which led to them being mixed up with Quasar’s own plugins. Now they are simply referred to as “boot files”.
 

@@ -1,7 +1,7 @@
 ---
 title: Custom State Management - DEVserv.ME
 label: Custom State Management
-order: 96
+order: 70
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

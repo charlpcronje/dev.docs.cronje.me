@@ -1,7 +1,7 @@
 ---
 title: Vue Web Storage | DEVserv.ME
 label: Vue Web Storage
-order: 96
+order: 91
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

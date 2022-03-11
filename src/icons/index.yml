@@ -1,10 +1,8 @@
-: 
-label: 
-order: 99
+title: Icon Sets | DEVserv.ME
+label: Icon Sets
+order: 3
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
-tags: [dev,frontend,

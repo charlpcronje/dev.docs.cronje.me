@@ -1,4 +1,13 @@
-# Path::Tiny
+---
+title: Path::Tiny | DEVserv.ME
+label: Path::Tiny
+order: 41
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+---
 
 This module provides a small, fast utility for working with file paths. It is friendlier to use than File::Spec and provides easy access to functions from several other core file handling modules. It aims to be smaller and faster than many alternatives on CPAN, while helping people do many common things in consistent and less error-prone ways.
 

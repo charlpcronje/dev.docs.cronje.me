@@ -1,7 +1,7 @@
 ---
 title: Themes & Design | DEVserv.ME
 label: Themes & Design
-order: 21
+order: 122
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

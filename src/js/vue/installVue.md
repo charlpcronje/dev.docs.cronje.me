@@ -1,7 +1,7 @@
 ---
 title: Install Vue.js | DEVserv.ME
 label: Install Vue.js
-order: 43
+order: 95
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

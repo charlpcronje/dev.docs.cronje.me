@@ -1,13 +1,14 @@
----: Web Scraping | DEVserv.ME
+--- 
+title: Web Scraping | DEVserv.ME
 label: Web Scraping
-order: -11
+order: 5
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
----This vignette introduces you to the basics of web scraping with rvest. You’ll first learn the basics of HTML and how to use CSS selectors to refer to specific elements, then you’ll learn how to use rvest functions to get data out of HTML and into R.
+---
+This vignette introduces you to the basics of web scraping with rvest. You’ll first learn the basics of HTML and how to use CSS selectors to refer to specific elements, then you’ll learn how to use rvest functions to get data out of HTML and into R.
 
 ```R
 library(rvest)
@@ -37,9 +38,9 @@ Since < and > are used for start and end tags, you can’t write them directly. 
 
 All up, there are over 100 HTML elements. Some of the most important are:
 
-- Every HTML page must be must be in an <html> element, and it must have two children: <head>, which contains document metadata like the page title, and <body>, which contains the content you see in the browser.
-- Block tags like <h1> (heading 1), <p> (paragraph), and <ol> (ordered list) form the overall structure of the page.
-- Inline tags like <b> (bold), <i> (italics), and <a> (links) formats text inside block tags.
+- Every HTML page must be must be in an `<html>` element, and it must have two children: `<head>`, which contains document metadata like the page title, and `<body>`, which contains the content you see in the browser.
+- Block tags like `<h1>` (heading 1), `<p>` (paragraph), and `<ol>` (ordered list) form the overall structure of the page.
+- Inline tags like `<b>` (bold), `<i>` (italics), and `<a>` (links) formats text inside block tags.
 
 If you encounter a tag that you’ve never seen before, you can find out what it does with a little googling. I recommend the MDN Web Docs which are produced by Mozilla, the company that makes the Firefox web browser.
 
@@ -49,9 +50,9 @@ Most elements can have content in between their start and end tags. This content
 
 Hi! My name is Hadley.
 
-The children of a node refers only to elements, so the <p> element above has one child, the <b> element. The <b> element has no children, but it does have contents (the text “name”).
+The children of a node refers only to elements, so the `<p>` element above has one child, the `<b>` element. The `<b>` element has no children, but it does have contents (the text “name”).
 
-Some elements, like <img> can’t have children. These elements depend solely on attributes for their behavior.
+Some elements, like `<img>` can’t have children. These elements depend solely on attributes for their behavior.
 
 ## Attributes
 
@@ -59,7 +60,7 @@ Tags can have named attributes which look like name1='value1' name2='value2'. Tw
 
 Reading HTML with rvest
 
-You’ll usually start the scraping process with read_html(). This returns a xml_document2 object which you’ll then manipulate using rvest functions:
+You’ll usually start the scraping process with `read_html()`. This returns a `xml_document2` object which you’ll then manipulate using rvest functions:
 
 ```R
 html <- read_html("http://rvest.tidyverse.org/")
@@ -67,7 +68,7 @@ class(html)
 #> [1] "xml_document" "xml_node"
 ```
 
-For examples and experimentation, rvest also includes a function that lets you create an xml_document from literal HTML:
+For examples and experimentation, `rvest` also includes a function that lets you create an `xml_document` from literal HTML:
 
 ```R
 html <- minimal_html("
@@ -83,13 +84,13 @@ html
 #> [2] <body>\n<p>This is a paragraph</p>\n<p>\n  </p>\n<ul>\n<li>This is a bull ...
 ```
 
-Regardless of how you get the HTML, you’ll need some way to identify the elements that contain the data you care about. rvest provides two options: CSS selectors and XPath expressions. Here I’ll focus on CSS selectors because they’re simpler but still sufficiently powerful for most scraping tasks.
+Regardless of how you get the `HTML`, you’ll need some way to identify the elements that contain the data you care `about`. rvest provides two options: `CSS` selectors and `XPath` expressions. Here I’ll focus on `CSS` selectors because they’re simpler but still sufficiently powerful for most scraping tasks.
 
 ## CSS selectors
 
-CSS is short for cascading style sheets, and is a tool for defining the visual styling of HTML documents. CSS includes a miniature language for selecting elements on a page called CSS selectors. CSS selectors define patterns for locating HTML elements, and are useful for scraping because they provide a concise way of describing which elements you want to extract.
+`CSS` is short for cascading style sheets, and is a tool for defining the visual styling of HTML documents. `CSS` includes a miniature language for selecting elements on a page called `CSS` selectors. `CSS` selectors define patterns for locating HTML elements, and are useful for scraping because they provide a concise way of describing which elements you want to extract.
 
-CSS selectors can be quite complex, but fortunately you only need the simplest for rvest, because you can also write R code for more complicated situations. The four most important selectors are:
+`CSS` selectors can be quite complex, but fortunately you only need the simplest for rvest, because you can also write R code for more complicated situations. The four most important selectors are:
 
 ```R
 p: selects all <p> elements.
@@ -101,7 +102,7 @@ p.special: selects all <p> elements with class “special”.
 #title: selects the element with the id attribute that equals “title”. Id attributes must be unique within a document, so this will only ever select a single element.
 ```
 
-If you want to learn more CSS selectors I recommend starting with the fun CSS dinner tutorial and then referring to the MDN web docs.
+If you want to learn more `CSS` selectors I recommend starting with the fun `CSS` dinner tutorial and then referring to the `MDN` web docs.
 
 Lets try out the most important selectors with a simple example:
 
@@ -113,7 +114,7 @@ html <- minimal_html("
 ")
 ```
 
-In rvest you can extract a single element with html_element() or all matching elements with html_elements(). Both functions take a document3 and a css selector:
+In rvest you can extract a single element with `html_element()` or all matching elements with `html_elements()`. Both functions take a document3 and a css selector:
 
 ```R
 html %>% html_element("h1")
@@ -135,8 +136,9 @@ html %>% html_elements("#first")
 
 If you don’t know exactly what selector you need, I highly recommend using SelectorGadget, which lets you automatically generate the selector you need by supplying positive and negative examples in the browser.
 
-Extracting data
-Now that you’ve got the elements you care about, you’ll need to get data out of them. You’ll usually get the data from either the text contents or an attribute. But, sometimes (if you’re lucky!), the data you need will be in an HTML table.
+## Extracting data
+
+Now that you’ve got the elements you care about, you’ll need to get data out of them. You’ll usually get the data from either the text contents or an attribute. But, sometimes (if you’re lucky!), the data you need will be in an `HTML` table.
 
 ## Text
 
@@ -156,9 +158,9 @@ html %>%
 #> [1] "apple & pear" "banana"       "pineapple"
 ```
 
-Note that the escaped ampersand is automatically converted to &; you’ll only ever see HTML escapes in the source HTML, not in the data returned by rvest.
+Note that the escaped ampersand is automatically converted to &; you’ll only ever see `HTML` escapes in the source `HTML`, not in the data returned by rvest.
 
-You might wonder why I used html_text2(), since it seems to give the same result as html_text():
+You might wonder why I used `html_text2()`, since it seems to give the same result as `html_text()`:
 
 ```R
 html %>% 
@@ -167,7 +169,7 @@ html %>%
 #> [1] "apple & pear" "banana"       "pineapple"
 ```
 
-The main difference is how the two functions handle white space. In HTML, white space is largely ignored, and it’s the structure of the elements that defines how text is laid out. html_text2() does its best to follow the same rules, giving you something similar to what you’d see in the browser. Take this example which contains a bunch of white space that HTML ignores.
+The main difference is how the two functions handle white space. In `HTML`, white space is largely ignored, and it’s the structure of the elements that defines how text is laid out. `html_text2()` does its best to follow the same rules, giving you something similar to what you’d see in the browser. Take this example which contains a bunch of white space that HTML ignores.
 
 ```R
 html <- minimal_html("<body>

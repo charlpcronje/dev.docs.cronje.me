@@ -1,13 +1,16 @@
----: Deploying an SPA in Quasar | DEVserv.ME
+---
+title: Deploying an SPA in Quasar | DEVserv.ME
 label: Deploying an SPA
-order: 27
+order: 74
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,js,frontend,backend,devtools,quasar,pwa,spa]
----How to publish a Single Page App built by Quasar CLI.
+---
+
+How to publish a Single Page App built by Quasar CLI.
 
 There exist many services that allow deploying applications with ease.
 To list all of them would not be possible so we will focus on the general deployment process and some specifics for common services.

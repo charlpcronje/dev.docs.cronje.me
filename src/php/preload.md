@@ -1,13 +1,16 @@
----: PHP Preload | DEVserv.ME
+---
+title: PHP Preload | DEVserv.ME
 label: PHP Preload
-order: 17
+order: 25
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,extension,chrome,manifest,v3,UNOCSS]
----As of `PHP 7.4.0`, `PHP` can be configured to preload scripts into the `opcache` when the engine starts. Any functions, classes, interfaces, or traits (but not constants) in those files will then become globally available for all requests without needing to be explicitly included. That trades convenience and performance (`because the code is always available`) for baseline memory usage. It also requires restarting the `PHP process` to clear `pre-loaded` scripts, meaning this feature is only practical to use in production, not in a development environment.
+---
+
+As of `PHP 7.4.0`, `PHP` can be configured to preload scripts into the `opcache` when the engine starts. Any functions, classes, interfaces, or traits (but not constants) in those files will then become globally available for all requests without needing to be explicitly included. That trades convenience and performance (`because the code is always available`) for baseline memory usage. It also requires restarting the `PHP process` to clear `pre-loaded` scripts, meaning this feature is only practical to use in production, not in a development environment.
 
 Note that the optimal `tradeoff` between performance and memory may vary with the application. "`Preload everything`" may be the easiest strategy, but not necessarily the best strategy. Additionally, preloading is only useful when there is a persistent process from one request to another. That means while it can work in a `CLI script` if the `opcache` is enabled, it's generally pointless. The exception is when using preloading
 

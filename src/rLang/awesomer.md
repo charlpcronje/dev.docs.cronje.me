@@ -1,6 +1,7 @@
----: Awesome R | DEVserv.ME
+---
+title: Awesome R | DEVserv.ME
 label: Awesome R
-order: 101
+order: 16
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
@@ -8,7 +9,6 @@ authors:
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 ---
-# 
 
 A curated list of awesome R packages and tools. Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning).
 
@@ -54,8 +54,15 @@ A curated list of awesome R packages and tools. Inspired by [awesome-machine-lea
 
 ## 2020
 
-* [VSCode](https://code.visualstudio.com/) - [vscode-R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r) + [vscode-r-lsp](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r-lsp) VSCode R Langauage Support
-* [gt](https://github.com/rstudio/gt) - Easily generate information-rich, publication-quality tables from R
+* [VSCode](https://code.visualstudio.com/) 
+- [vscode-R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r) 
++ [vscode-r-lsp](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r-lsp) 
+
+## VSCode R Langauage Support
+* [gt](https://github.com/rstudio/gt) 
+
+- Easily generate information-rich, publication-quality tables from R
+
 * [lightgbm <img class="emoji" alt="heart" src="https://cdn.jsdelivr.net/gh/qinwf/awesome-R@3c66da6e291bcc0520b1649125b0bed750896a9a/heart.png" height="20" align="absmiddle" width="20">](https://cran.r-project.org/web/packages/lightgbm/index.html) - Light Gradient Boosting Machine.
 * [torch](https://cran.r-project.org/web/packages/torch/index.html) - Tensors and Neural Networks with 'GPU' Acceleration.
 

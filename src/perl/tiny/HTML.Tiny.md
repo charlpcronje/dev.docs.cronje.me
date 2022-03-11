@@ -1,5 +1,13 @@
-# HTML::Tiny
-
+---
+title: HTML::Tiny | DEVserv.ME
+label: HTML::Tiny
+order: 42
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+---
 HTML::Tiny - Lightweight, dependency free HTML/XML generation
 
 ```perl

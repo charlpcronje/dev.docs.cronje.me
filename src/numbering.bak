@@ -1,0 +1,172 @@
+      ---
+      Title: Development | DEVserv.ME
+      label: Development - Home
+      order: 65
+      authors:
+        - name: Charl Cronje
+          email: charl@devserv.me
+          link: https://charl-cv.devserv.me
+          avatar: https://assets.devserv.me/avatars/darker.jpg
+      tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
+      ---
+      
+      ```sh
+      .__ .___.  ..___.   .__..__ .  ..___.  ..___.   .  ..___
+      |  \[__ \  /[__ |   |  |[__)|\/|[__ |\ |  |     |\/|[__ 
+      |__/[___ \/ [___|___|__||   |  |[___| \|  |   * |  |[___
+                                                              
+      ```
+170      ## RStudio IDE
+      
+165      - [R Programming](./rLang/README.md)
+164         - [Awesome R](./rLang/awesomer.md)
+163         - [Install R](./rLang/installR.md)
+162         - [R Studio](./rLang/rstudio.md)
+161      - [R Markdown](./rLang/rmd.md)
+160        - [Markdown Templates](./rLang/mdTemplates.md)
+155        - [Portfolio Template](./rLang/cvTemplare.md)
+154        - [Quarto guide](./rLang/quartoGuide.md)
+153      - [Web-Scraping](./rLang/webScraping.md)
+      
+152      ## Bash Scripting
+      
+      Bash is not the most exciting topic and I would a very nice feferecne to most if the issues I've ever experienced: [Bash Scripting](https://www.javatpoint.com/bash-scripting)
+      
+151      ## [Dev Tools](./devTools/README.md)
+      
+      - I created a few development tools that can plug into any `backend` or `frontend` to give me instant `feedback` on any requested `module` /      `class`, `method` or `function`
+      - It is also important to get `feedback` on the `time spend` executing certain tasks.
+      - Since `PHP 7.4` when they introduced the `PHP RFC: Preload` I saw an oportunity by preloading the `dev tools`, I get to `hook` into any code      loaded afterwards, giving me access to monitor any system without interfering with any existing code.
+      
+150      ## Some of the tools
+      
+145      - [Getting Started](./devTools/README.md)
+144      - [Console Log Anything](./devTools/consoleLog.md)
+143      - [Error Reporting](./devTools/errorReporting.md)
+142      - [Log Helpers](./devTools/logHelpers.md)
+141      - [Routing](./devTools/route.md)
+      
+140      ### 3rd Party MySQL Client
+      
+      Adminer is a single PHP file web based mysql client, very handy for remote SQL Management
+      
+135      - [Adminer](./devTools/adminer.md)
+      
+134      ## Public API's
+      
+133      - [Twillo Public WhatsApp API](./api/twillo.md)
+      
+132      ## Chrome Extensions
+      
+131      - [Manifest V3](./chromeExt/manifestV3.md)
+130      - [Options Page](./chromeExt/optionsPage.md)
+      
+125      ## Frontend Development
+      
+124      - [Prototyping](./html/README.md)
+123      - [Preloading & Prefetching](./html/prefetchAndPreload.md)
+122     - [Themes & Design](./themesAndDesign.md)
+120      - [UNOCSS](./css/unocss.md)
+      
+115      ### JavaScript
+      
+114      - [GraphQL](./js/graphql/README.md)
+113      - [GraphQL & Axios](./js/graphql/axios.md)
+      
+112     ### Node.js - Server Side Scripting
+      
+111      - [Node Version Manager](./node/nvm.md)
+110      - [Creating a node.js Cmd Line App](./node/nodecli.md)
+      
+105      ### JS Libraries
+      
+104      - [Cash JS](./js/libs/cash-js.md)
+103      - [jsDoc](./js/libs/jsDoc.md)
+102      - [PReact](./js/libs/PReact.md)
+      
+101      ### Vue.js Framework
+      
+100      - [Vue.js](js/vue/README.md)
+95       - [Install Vue and it's SFC, CLI](./js/vue/installVue.md)
+94       - [Different Builds](./js/vue/differentBuilds.md)
+93       - [Composition API](./js/vue/composition/api.md)
+92       - [Fetching Data](./js/vue/composition/fetchData.md)
+91       - [Vue Web Storage](./js/vue/vueWebStorage.md)
+      
+90      ### Quasar JS Frameworks  
+      
+93      - [Quasar](./js/quasar/README.md)
+92      - [Command List](./js/quasar/commandList.md)
+91      - [Global Components](./js/quasar/globalComponents.md)
+85      - [Boot Files](./js/quasar/bootFiles.md)
+84      - [Boot Plugin](./js/quasar/bootPlugin.md)
+83      - [Quasar Pre-fetch](./js/quasar/quasarPrefetch.md)
+82      - [Quasar Assets](./js/quasar/quasarAssets.md)
+81      - [API Proxy](./js/quasar/apiProxy.md)
+80      - [Sass in JS](./js/quasar/sassInJs.md)
+75      - [env Process](./js/quasar/envProcess.md)
+74      - [Deploying Or Building](./js/quasar/deployingOrBuilding.md)
+73      - [Quasar Testing](./js/quasar/quasarTesting.md)
+72      - [Dev For Public](./js/quasar/devForPublic.md)
+      
+71      ### State Management
+      
+70      - [Custom State Management](customState.md)
+      
+65      ### Build Tools
+      
+64      - [Vite](./js/vite/README.md)
+      
+63      ## Perl Development
+      
+62      - [Getting started with Perl](perl/gettingStarted.md)
+61      - [Perl Scripting IDE's](perl/perlIDEs.md)
+60      - [Argument Parsing Sub-Routines](perl/argsSubRoutines.md)
+55      - [Dots in Perl](perl/dotsInPerl.md)
+54      - [Singletons](perl/singleton.md)
+53      - [Static Variables](perl/staticVars.md)
+52      - [Variable variables](perl/variableVariables.md)
+      
+51      ### Perl Libraries
+      
+50      - [Hash.Digger](perl/libs/Hash.Digger.md)
+45      - [!file Hash.Digger Module](libs/Hash.Digger.pm)
+44      - [Class.Tiny](perl/tiny/Class.Tiny.md)
+43      - [Config.Tiny](perl/tiny/Config.Tiny.md)
+42      - [HTML.Tiny](perl/tiny/HTML.Tiny.md)
+41      - [Path.Tiny](perl/tiny/Path.Tiny.md)
+40      - [Set.Tiny](perl/tiny/Set.Tiny.md)
+39      - [SQL.Tiny](perl/tiny/SQL.Tiny.md)
+38      - [XML.Tiny](perl/tiny/XML.Tiny.md)
+      
+37      ### Perl Regular Expressions
+      
+36      - [Regex Basics](perl/regex/regexBasics.md)
+35      - [Regex for SSH Agent](perl/regex/regexForSSHAgent.md)
+30      - [Sample Data](perl/regex/sampleData.md)
+29      - [Sub Strings](perl/regex/subStrings.md)
+28      - [Regex in Perl](perl/regex.md)
+      
+27      ## PHP Development
+      
+26      - [PHP](./php/README.md)
+25      - [Preload](./php/preload.md)
+20      - [Laravel](./php/laravel/README.md)
+20     - [Laravel CORS](./php/laravel/cors.md)
+19      - [Run shell_exec as sudo](./php/shellExec/README.md)
+      
+18      ## RStudio IDE
+17      ### - [R Programming](./rLang/README.md)
+16       - [Awesome R](./rLang/awesomer.md)
+15        - [Install R](./rLang/installR.md)
+10        - [R Studio](./rLang/rstudio.md)
+9      ### - [R Markdown](./rLang/rmd.md)
+8        - [Markdown Templates](./rLang/mdTemplates.md)
+7        - [Portfolio Template](./rLang/cvTemplare.md)
+6        - [Quarto guide](./rLang/quartoGuide.md)
+5      ### - [Web-Scraping](./rLang/webScraping.md)
+     
+4      ## Icon Sets
+     
+2      - [octIcons](./icons/octIcons.md)  
+1      - [Material Design Icons](./icons/materialIcons.md)

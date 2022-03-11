@@ -1,6 +1,7 @@
----: Development | DEVserv.ME
+---
+Title: Development | DEVserv.ME
 label: Development - Home
-order: 65
+order: 180
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
@@ -61,11 +62,10 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 
 ## Frontend Development
 
-- [Prototyping](./prototyping/README.md)
+- [Prototyping](./html/prototyping.md)
 - [Preloading & Prefetching](./html/prefetchAndPreload.md)
-- [Themes & Design](./themesAndDesign.md)
-- [CORS](./cors.md)
-- [UNOCSS](./css/unocss.md)
+- [Themes & Design](./html/themesAndDesign.md)
+- [UNOCSS](./html/unocss.md)
 
 ### JavaScript
 
@@ -151,6 +151,7 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [PHP](./php/README.md)
 - [Preload](./php/preload.md)
 - [Laravel](./php/laravel/README.md)
+- [Laravel CORS](./php/laravel/cors.md)
 - [Run shell_exec as sudo](./php/shellExec/README.md)
 
 ## RStudio IDE
@@ -166,6 +167,5 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 
 ## Icon Sets
 
-- [Icon sets](./icons/README.md)  
 - [octIcons](./icons/octIcons.md)  
 - [Material Design Icons](./icons/materialIcons.md)

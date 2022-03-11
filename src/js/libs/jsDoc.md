@@ -1,6 +1,7 @@
----: Library - JS DOC
+---
+title: Library JS DOC | DEVserv.ME
 label: Library - JS DOC
-order: 47
+order: 103
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

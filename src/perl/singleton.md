@@ -1,3 +1,13 @@
+---
+title: Singleton.pm | DEVserv.ME
+label: Singleton.pm
+order: 54
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+---
 #============================================================================
 #
 # Class::Singleton.pm

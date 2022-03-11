@@ -1,5 +1,13 @@
-# SQL::Tiny
-
+---
+title: SQL::Tiny | DEVserv.ME
+label: SQL::Tiny
+order: 39
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+---
 ## DOCUMENTATION
 A very simple SQL-building library. It's not for all your SQL needs, only the very simple ones.
 

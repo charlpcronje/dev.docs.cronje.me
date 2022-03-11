@@ -1,4 +1,14 @@
-# Reading configuration INI files in Perl
+---
+title: Config::Tiny | DEVserv.ME
+label: Config::Tiny
+order: 43
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+---
+## Reading configuration INI files in Perl
 
 The [INI file format](https://en.wikipedia.org/wiki/INI_file) is a simple file format that allows 2-level configuration options. It was extensively used in MS DOS and MS Windows, and it can be used in lots of places as it is very simple.
 

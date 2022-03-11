@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 ---
 title: Chrome Manifest V3 | DEVserv.ME
 label: Chrome Manifest V3
-order: 54
-=======
----: Manifest V3 | DEVserv.ME
-label: Manifest V3
-order: 55
->>>>>>> 70a75ba3426a58d663b97d7527372018129ea6b9
+order: 131
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

@@ -1,6 +1,7 @@
----: Run Shell Exec as sudo | DEVserv.ME
+---
+title: Run Shell Exec as sudo | DEVserv.ME
 label: Run Shell Exec as sudo
-order: -2
+order: 19
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

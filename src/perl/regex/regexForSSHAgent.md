@@ -1,3 +1,14 @@
+---
+title: Regex for SSH Clients | DEVserv.ME
+label: Regex for SSH Clients
+order: 35
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+---
+
 # 5.7 Capturing and Clustering
 
 ``Patterns allow you to group portions of your pattern together into sub-patterns and to remember the strings matched by those sub-patterns. We call the first behavior _clustering_ and the second one _capturing_.

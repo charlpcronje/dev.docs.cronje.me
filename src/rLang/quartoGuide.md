@@ -1,6 +1,7 @@
----: Using Quarto | DEVserv.ME
+---
+title: Using Quarto | DEVserv.ME
 label: Using Quarto
-order: 101
+order: 6
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

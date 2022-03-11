@@ -1,13 +1,15 @@
----: R Markdown Templates | DEVserv.ME
+---
+title: R Markdown Templates | DEVserv.ME
 label: R Markdown Templates
-order: 101
+order: 8
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
----A package of R markdown templates and knitr knit engine replacments
+---
+A package of R markdown templates and knitr knit engine replacements
 
 These are a set of alternate R markdown templates that do not use Bootstrap and do not include or rely on jQuery. These are primarily here for demonstration purposes but are also useful in and of themselves (it's always good to have choices). If you have a particular framework you like and it's not here, file an issue and I'll add it.
 

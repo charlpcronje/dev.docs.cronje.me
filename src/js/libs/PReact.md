@@ -1,6 +1,7 @@
----: PReact - Fast 3kB alternative to React
+---
+title: PReact - Fast 3kB alternative to React
 label: PReact - Fast 3kB
-order: 46
+order: 102
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
@@ -8,8 +9,6 @@ authors:
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,js,backend,developer,js,doc,jsdoc]
 ___
-
-# PReact - Fast 3kB alternative to React with the same modern API
 
 - [PReact - Fast 3kB alternative to React with the same modern API](#preact---fast-3kb-alternative-to-react-with-the-same-modern-api)
   - [See it in action](#see-it-in-action)

@@ -1,5 +1,13 @@
-# Set::Tiny
-
+---
+title: Set::Tiny | DEVserv.ME
+label: Set::Tiny
+order: 40
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+---
 ## DESCRIPTION
 
 `Set::Tiny` is a thin wrapper around regular Perl hashes to perform often needed set operations, such as testing two sets of strings for equality, or checking whether one is contained within the other.

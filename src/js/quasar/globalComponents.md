@@ -1,14 +1,16 @@
----title: Quasar Global Components | DEVserv.ME
+---
+title: Quasar Global Components | DEVserv.ME
 label: Global Components
-order: 65
+order: 91
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
 tags: [dev,tools,js,frontend,backend,devtools,quasar,global,components]
----## Create new Boot file
+---
+
+## Create new Boot file
 
 ```shell
 quasar new boot RegisterGlobalCOmponents

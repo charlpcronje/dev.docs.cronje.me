@@ -1,27 +1,14 @@
-<<<<<<< HEAD
 ---
 title: Preload and prefetch - DEVserv.ME
 label: Preload and prefetch
-order: 96
-=======
----: Pre-fetching - DEVserv.ME
-label: Pre-fetching
-order: 22
->>>>>>> 70a75ba3426a58d663b97d7527372018129ea6b9
+order: 123
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-<<<<<<< HEAD
 tags: [dev,js,php,frontend,developer,devtools,prefetch,html,Preload]
 ---
-# Preload and prefetch
-=======
-tags: [dev,js,php,frontend,developer,devtools,pre-fetching]
----# Preload and prefetch
->>>>>>> 70a75ba3426a58d663b97d7527372018129ea6b9
-
 The preload value of the `<link>` element's rel attribute lets you declare fetch requests in the HTML's `<head>`, specifying resources that your page will need very soon, which you want to start loading early in the page lifecycle, before browsers' main rendering machinery kicks in. This ensures they are available earlier and are less likely to block the page's render, improving performance.
 
 ## The basics

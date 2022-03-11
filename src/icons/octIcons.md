@@ -1,5 +1,13 @@
-# OctIcons
-
+---
+title: OctIcons - Log Helpers
+label: OctIcons
+order: 2
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+---
 _Official Website: [https://primer.style/octicons/](https://primer.style/octicons/)_
 
 Octicons are a set of SVG icons built by GitHub for GitHub

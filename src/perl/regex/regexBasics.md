@@ -1,6 +1,17 @@
+---
+title: Regex | DEVserv.ME
+label: Regex 
+order: 36
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+---
+
 # Regular Expressions
 
-## Metacharacters
+## Meta characters
 
 ["The Basics"](https://perldoc.perl.org/perlre#The-Basics) introduced some of the metacharacters. This section gives them all. Most of them have the same meaning as in the _egrep_ command.
 

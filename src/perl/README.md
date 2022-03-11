@@ -10,8 +10,9 @@
 
 ## Libraries
 
+[!file Hash.Digger Module](libs/Hash.Digger.pm)
+
 - [Hash.Digger](libs/Hash.Digger.md)
-- [!file Hash.Digger Module](libs/Hash.Digger.pm)
 - [Class.Tiny](tiny/Class.Tiny.md)
 - [Config.Tiny](tiny/Config.Tiny.md)
 - [HTML.Tiny](tiny/HTML.Tiny.md)

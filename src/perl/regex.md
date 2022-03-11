@@ -1,3 +1,13 @@
+---
+title: Perl Regex | DEVserv.ME
+label: Perl Regex
+order: 28
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+---
 # Perl Text Patterns for Search and Replace
 
 ## Perl’s Rich Support for Regular Expressions

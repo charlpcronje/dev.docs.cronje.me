@@ -1,4 +1,13 @@
-# Variable Variables
+---
+title: Variable Variables | DEVserv.ME
+label: SVariable Variables
+order: 52
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+---
 
 ```perl
 use strict;

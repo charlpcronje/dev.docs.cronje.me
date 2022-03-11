@@ -1,12 +1,12 @@
----: R Programming | DEVserv.ME
+---
+title: R Programming | DEVserv.ME
 label: R Programming
-order: 101
+order: 17
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 ---
 R is a programming language for statistical computing and graphics supported by the R Core Team and the R Foundation for Statistical Computing. Created by statisticians Ross Ihaka and Robert Gentleman, R is used among data miners and statisticians for data analysis and developing statistical software
 
@@ -19,7 +19,7 @@ R is a programming language for statistical computing and graphics supported by 
   - [Install R](installR.md)
   - [R Studio](rstudio.md)
 - [R Markdown](rmd.md)
-  - [R Markdown Cheatcheat](mdCheatsheet.pdf)
+  - [!file R Markdown Cheat sheet](mdCheatsheet.pdf)
   - [Markdown Templates](mdTemplates.md)
   - [Portfolio Template](cvTemplare.md)
 - [Quarto guide](quartoGuide.md)

@@ -1,6 +1,7 @@
----: Dev Tools - Error Reporting
+---
+title: Dev Tools - Error Reporting
 label: Error Reporting
-order: 62
+order: 143
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

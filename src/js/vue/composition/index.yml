@@ -1,10 +1,9 @@
-: Composition API | DEVserv.ME
+title: Composition API | DEVserv.ME
 label: Composition API 
-order: 5
+order: 93
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
 tags: [dev,tools,start,js,frontend,developer,devtools,quasar]

@@ -1,4 +1,5 @@
----: Laravel 8 CORS | DEVserv.ME
+---
+title: Laravel 8 CORS | DEVserv.ME
 label: Laravel 8 CORS
 order: 20
 authors:
@@ -7,7 +8,9 @@ authors:
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
----Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served.
+---
+
+Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources on a web page to be requested from another domain outside the domain from which the first resource was served.
 
 ## CORS Middleware
 

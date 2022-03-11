@@ -1,7 +1,7 @@
 ---
 title: Vue.js Framework | DEVserv.ME
 label: Vue.js Framework
-order: 44
+order: 100
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

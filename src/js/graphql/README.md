@@ -1,3 +1,14 @@
+---
+title: Graph Query Language | DEVserv.ME
+label: GraphQL
+order: 114
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+---
+
 # GraphQL - Graph Query Language
 
 - [GraphQL & Axios Http](axios.md)

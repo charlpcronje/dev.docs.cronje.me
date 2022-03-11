@@ -1,6 +1,7 @@
----: Library - cash.js
+---
+title: Library - cash.js
 label: Library - cash.js
-order: 48
+order: 104
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

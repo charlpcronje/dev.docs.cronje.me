@@ -1,7 +1,7 @@
 ---
 title: Vue.js Composition API | DEVserv.ME
 label: Composition API
-order: 41
+order: 93
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
