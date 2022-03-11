@@ -1,3 +1,15 @@
+---
+title: Different Builds | DEVserv.ME
+label: Different Builds
+order: 42
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,frontend,backend,devtools,vue,js]
+---
+
 # Explanation of Different Builds
 
 In the `dist/` directory of the npm package (opens new window)you will find many different builds of Vue.js. Here is an overview of which `dist` file should be used depending on the use-case.

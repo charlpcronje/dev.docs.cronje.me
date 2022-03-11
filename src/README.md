@@ -1,14 +1,11 @@
----
-title: Development | DEVserv.ME
+---: Development | DEVserv.ME
 label: Development - Home
-layout: page
-order: 101
+order: 65
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 ---
 ```sh
@@ -17,6 +14,17 @@ tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 |__/[___ \/ [___|___|__||   |  |[___| \|  |   * |  |[___
                                                         
 ```
+## RStudio IDE
+
+- [R Programming](./rLang/README.md)
+   - [Awesome R](./rLang/awesomer.md)
+   - [Install R](./rLang/installR.md)
+   - [R Studio](./rLang/rstudio.md)
+- [R Markdown](./rLang/rmd.md)
+  - [Markdown Templates](./rLang/mdTemplates.md)
+  - [Portfolio Template](./rLang/cvTemplare.md)
+  - [Quarto guide](./rLang/quartoGuide.md)
+- [Web-Scraping](./rLang/webScraping.md)
 
 ## Bash Scripting
 
@@ -28,7 +36,7 @@ Bash is not the most exciting topic and I would a very nice feferecne to most if
 - It is also important to get `feedback` on the `time spend` executing certain tasks.
 - Since `PHP 7.4` when they introduced the `PHP RFC: Preload` I saw an oportunity by preloading the `dev tools`, I get to `hook` into any code loaded afterwards, giving me access to monitor any system without interfering with any existing code.
 
-### Some of the tools
+## Some of the tools
 
 - [Getting Started](./devTools/README.md)
 - [Console Log Anything](./devTools/consoleLog.md)
@@ -40,7 +48,7 @@ Bash is not the most exciting topic and I would a very nice feferecne to most if
 
 Adminer is a single PHP file web based mysql client, very handy for remote SQL Management
 
-- [Adminer](./devTools/adminer.md);
+- [Adminer](./devTools/adminer.md)
 
 ## Public API's
 

@@ -1,19 +1,13 @@
----
-icon: smiley
-expanded: true
-title: .env Process Javascript | DEVserv.ME
+---: .env Process Javascript | DEVserv.ME
 label: .env Process
-order: 55
+order: 28
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
 tags: [dev,tools,js,frontend,backend,devtools,quasar,sass,.env,process]
----
-
-How to differentiate the runtime procedure based on process.env in a Quasar app.
+---How to differentiate the runtime procedure based on process.env in a Quasar app.
 
 Accessing `process.env` can help you in many ways:
 

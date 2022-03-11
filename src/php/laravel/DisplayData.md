@@ -1,3 +1,13 @@
+---: Displaying Data | DEVserv.ME
+label: Displaying Data
+order: 12
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,frontend,backend,devtools,php,laravel]
+---
 # Displaying Data
 
 Now that we have made the `users` available to our view, we can display them like so:

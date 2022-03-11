@@ -1,27 +1,38 @@
+<<<<<<< HEAD
 # Material Design Icons
+=======
+---: Material 
+label: Material 
+order: -14
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,js,php,frontend,developer,devtools,material,
+---Material Design 
+>>>>>>> 70a75ba3426a58d663b97d7527372018129ea6b9
 
-Material Design Icons' growing icon collection allows designers and developers targeting various platforms to download icons in the format, color and size they need for any project.
-
-> Material Design Icons has been around for many years and is compatible with many technologies and frameworks. Please view the docs menu at the top for an appropriate getting started guide.
+> Material Design 
 
 ## Using the Webfont
 
-One of the easiest ways to use the icons is through the webfont. There is also a hosted CDN option for quick use in demos or development.
+One of the easiest ways to use the 
 
-[Learn More (Webfont - Getting Started)](https://dev.materialdesignicons.com/getting-started/webfont)
+[Learn More (Webfont - Getting Started)](https://dev.materialdesign
 
 > Using the webfont while easy to use is highly discouraged due to performance and overall request size. Please read the Webfont Alternatives Guide for more details.
 
 ## Using SVGs
 
-All icons are designed in vector and provided in SVG format.
+All 
 
 ## As an Image File3
 
 SVGs can be downloaded individually and included the same way as any bitmap image:
 
 ```html
-<img src="/path/to/icons/example-icon.svg" alt="An example icon" style="width:24px;height:24px" />
+<img src="/path/to/
 ```
 
 ## Inline SVG

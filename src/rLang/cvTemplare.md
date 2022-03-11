@@ -1,6 +1,13 @@
-# Make Your CV Pretty in R Markdown
-
-|||
+---: CV in R Markdown | DEVserv.ME
+label: CV in R Markdown 
+order: 101
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
+---|||
 Why aren’t you using [R Markdown](http://rmarkdown.rstudio.com/) already? I’ve offered an argument why you should consider doing everything in R Markdown with posts about [my academic manuscript template](http://svmiller.com/blog/2016/02/svm-r-markdown-manuscript/)   and [my integration of R Markdown with Beamer](http://svmiller.com/blog/2015/02/moving-from-beamer-to-r-markdown/) (see updated [Beamer-R Markdown template here](https://github.com/svmiller/svm-r-markdown-templates)).
 |||
 ![alt](img/5.png)

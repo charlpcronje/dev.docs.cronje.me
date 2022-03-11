@@ -1,17 +1,13 @@
----
-title: Dev Tools - Log Helpers
+---: Dev Tools - Log Helpers
 label: Log Helpers
-order: 97
+order: 61
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
----
-
-# Dev Tools - Log Helpers
+---# Dev Tools - Log Helpers
 
 The following log helpers are available in Global Scope:
 > Please note: in the init.php there is a constant called `LOG_HELPERS` that is set to `true` and there is a check for a setting in `php.ini` for a variable called `ENV`

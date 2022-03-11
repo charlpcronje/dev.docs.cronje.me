@@ -1,5 +1,5 @@
 ---
-title: Vue Web Storage - DEVserv.ME
+title: Vue Web Storage | DEVserv.ME
 label: Vue Web Storage
 order: 96
 authors:

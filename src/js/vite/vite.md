@@ -1,7 +1,4 @@
----
-icon: star
-expanded: true
-title: Install Vite | DEVserv.ME
+---title: Install Vite | DEVserv.ME
 label: Install Vite in JS
 order: 60
 authors:

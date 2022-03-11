@@ -1,19 +1,13 @@
----
-icon: file-zip
-expanded: true
-title: Handling Assets | DEVserv.ME
+---: Handling Assets | DEVserv.ME
 label: Quasar Assets
-order: 75
+order: 33
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
 tags: [dev,tools,js,frontend,backend,devtools,quasar,boot,plugin,assets]
----
-
-You will notice in the project structure we have two directories for assets: `/public/` and `/src/assets/`. What is the difference between them? Some are static assets while the others are processed and embedded by the build system.
+---You will notice in the project structure we have two directories for assets: `/public/` and `/src/assets/`. What is the difference between them? Some are static assets while the others are processed and embedded by the build system.
 
 So let's try to answer the question above. We'll first talk about using regular assets then we'll see what the difference is for static assets.
 
@@ -55,7 +49,7 @@ Every file and folder from the "public" folder are copied into your production b
 :::
 
 ::: danger
-When not building a SPA/PWA/SSR, then `/public/icons/*` and `/public/favicon.ico` will NOT be embedded into your app because they would not serve any purpose. For example, Electron or Cordova apps do not require those files.
+When not building a SPA/PWA/SSR, then `/public/
 :::
 
 ## Vue Binding Requires Statics Only

@@ -1,7 +1,6 @@
----
-title: Creating a Node.js Cmd Line App
+---: Creating a Node.js Cmd Line App
 label: Node.js Cmd Line App
-order: 95
+order: 50
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

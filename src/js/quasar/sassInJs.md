@@ -1,19 +1,13 @@
----
-icon: star
-expanded: true
-title: Use Sass Variables in Javascript | DEVserv.ME
+---: Use Sass Variables in Javascript | DEVserv.ME
 label: Sass Variables in JS
-order: 60
+order: 29
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
 tags: [dev,tools,js,frontend,backend,devtools,quasar,sass]
----
-
-Sass variables are awesome in that they guarantee that you are using the right colors, dimensions, animations but it proved to be difficult to implement.
+---Sass variables are awesome in that they guarantee that you are using the right colors, dimensions, animations but it proved to be difficult to implement.
 
 ## Install
 

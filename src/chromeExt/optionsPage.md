@@ -1,5 +1,4 @@
----
-title: Options Page | DEVserv.ME
+---: Options Page | DEVserv.ME
 label: Options Page
 order: 55
 authors:
@@ -8,9 +7,7 @@ authors:
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,extension,chrome,manifest,v3,options]
----
-
-Option pages should be simple to create given a structure of your options, ~and look like Chrome's options~.
+---Option pages should be simple to create given a structure of your options, ~and look like Chrome's options~.
 
 ![example](options/images/example.png)
 

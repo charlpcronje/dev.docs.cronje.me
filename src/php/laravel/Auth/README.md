@@ -1,10 +1,20 @@
+---: Laravel Auth | DEVserv.ME
+label: Laravel Auth
+order: -1
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,frontend,backend,devtools,php,laravel]
+---
 # Laravel Auth::routes() Email verification Reset password Authentication Registration routes
 
 ## ![alt text here](https://miro.medium.com/max/2000/1*nD3OzZZyrbUl9XNNUjDyTw.png))Authentication
 
 ### Introduction
 
-    #### Database Considerations
+#### Database Considerations
 
 ### Authentication Quick start
 

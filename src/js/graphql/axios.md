@@ -1,5 +1,4 @@
----
-title: GraphQL & Axios - DEVserv.ME
+---: GraphQL & Axios - DEVserv.ME
 label: GraphQL & Axios
 order: 96
 authors:
@@ -7,10 +6,8 @@ authors:
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-tags: [dev,js,php,frontend,developer,devtools,material,icon,axios,http]
----
-
-# GraphQL & Axios
+tags: [dev,js,php,frontend,developer,devtools,material,
+---# GraphQL & Axios
 
 ## Vue App
 

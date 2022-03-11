@@ -1,3 +1,13 @@
+---: Install R | DEVserv.ME
+label: Install R
+order: 101
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
+---
 # Install R Programming Langauge
 
 ## Install Procedure

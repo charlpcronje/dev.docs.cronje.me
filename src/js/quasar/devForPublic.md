@@ -1,18 +1,13 @@
----
-icon: codespaces
-expanded: true
-title: Dev Server to the Public | DEVserv.ME
+---: Dev Server to the Public | DEVserv.ME
 label: Dev Server to the Public
-order: 40
+order: 25
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,js,frontend,backend,devtools,quasar,test,dev,public]
----
-
-How to offer temporary access to your development server to anyone on the Internet.
+---How to offer temporary access to your development server to anyone on the Internet.
 
 At some point you may want to show someone else the project you've been working on. Fortunately, there are a couple of good tools to accomplish this, [localhost.run](https://localhost.run/) and [Ngrok](https://ngrok.com/). Both create a tunnel to your dev server and (by default) auto-generate an internet address on their respective servers to offer to your clients or anyone special you'd like to show your work to.
 

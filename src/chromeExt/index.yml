@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 title: Chrome Extensions | DEVserv.ME
 label: Chrome Extensions
 order: 56
+=======
+: Chrome Extensions | DEVserv.ME
+label: Chrome Extension
+order: 97
+>>>>>>> 70a75ba3426a58d663b97d7527372018129ea6b9
 authors:
   - name: Charl Cronje
     email: charl@devserv.me

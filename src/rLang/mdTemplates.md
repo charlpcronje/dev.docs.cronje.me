@@ -1,6 +1,13 @@
-# R Markdown Templates
-
-A package of R markdown templates and knitr knit engine replacments
+---: R Markdown Templates | DEVserv.ME
+label: R Markdown Templates
+order: 101
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
+---A package of R markdown templates and knitr knit engine replacments
 
 These are a set of alternate R markdown templates that do not use Bootstrap and do not include or rely on jQuery. These are primarily here for demonstration purposes but are also useful in and of themselves (it's always good to have choices). If you have a particular framework you like and it's not here, file an issue and I'll add it.
 
@@ -25,9 +32,7 @@ If you create an R markdown (Rmd) document with the following YAML header:
     ---
     knit: markdowntemplates::to_jupyter
     run: false
-    ---
-
-The `to_jupyter()` engine will be used and [`notedown`](https://github.com/aaren/notedown) will be used to convert the notebook to a Jupyter (ipynb) notebook. The `run` parameter is optional. If not present or set to `true` the notebook will be executed as it is converted to a Jupyter notebook. The engine is also now smart enough to detect the absence of pure R code chunks and avoid including of:
+    ---The `to_jupyter()` engine will be used and [`notedown`](https://github.com/aaren/notedown) will be used to convert the notebook to a Jupyter (ipynb) notebook. The `run` parameter is optional. If not present or set to `true` the notebook will be executed as it is converted to a Jupyter notebook. The engine is also now smart enough to detect the absence of pure R code chunks and avoid including of:
 
     %load_ext rpy2.ipython
     

@@ -1,6 +1,13 @@
-# Web Scraping
-
-This vignette introduces you to the basics of web scraping with rvest. You’ll first learn the basics of HTML and how to use CSS selectors to refer to specific elements, then you’ll learn how to use rvest functions to get data out of HTML and into R.
+---: Web Scraping | DEVserv.ME
+label: Web Scraping
+order: -11
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
+---This vignette introduces you to the basics of web scraping with rvest. You’ll first learn the basics of HTML and how to use CSS selectors to refer to specific elements, then you’ll learn how to use rvest functions to get data out of HTML and into R.
 
 ```R
 library(rvest)

@@ -1,3 +1,13 @@
+---: Using Quarto | DEVserv.ME
+label: Using Quarto
+order: 101
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
+---
 # Comprehensive guide to using Quarto.  
 
 > If you are just starting out, you may want to explore the [tutorials](https://quarto.org/docs/get-started/) to learn the basics.

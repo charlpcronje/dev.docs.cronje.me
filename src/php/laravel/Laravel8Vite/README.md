@@ -1,3 +1,13 @@
+---: Deploying Your Application | DEVserv.ME
+label: Deploying Application
+order: 4
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,frontend,backend,devtools,php,laravel]
+---
 # Laravel 8 Vite Vue Project
 
 [https://laravel-vite.innocenzi.dev/guide/](https://laravel-vite.innocenzi.dev/guide/_)

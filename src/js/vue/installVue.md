@@ -1,3 +1,14 @@
+---
+title: Install Vue.js | DEVserv.ME
+label: Install Vue.js
+order: 43
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,frontend,backend,devtools,vue,js]
+---
 # Install Vue and it's SFC, CLI
 
 NPM is the recommended installation method when building large scale applications with Vue. It pairs nicely with module bundlers such as `webpack` (opens new window) or `Rollup` (opens new window).

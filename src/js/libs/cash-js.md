@@ -1,4 +1,13 @@
-# cash.js
+---: Library - cash.js
+label: Library - cash.js
+order: 48
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [dev,tools,js,backend,developer,devtools,lib,cash]
+___
 
 > [cash.js Docs](https://kenwheeler.github.io/cash/#docs)
 

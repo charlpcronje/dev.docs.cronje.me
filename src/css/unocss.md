@@ -1,7 +1,7 @@
 ---
-title: UNOCSS - CSS Framework | DEVserv.ME
-label: UNOCSS
-order: 1
+title: UNOCSS | DEVserv.ME
+label: UNOCSS 
+order: 19
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
@@ -10,8 +10,6 @@ authors:
 date: 2022-01-25
 tags: [dev,tools,start,frontend,css,developer,devtools,uno,unocss]
 ---
-# @unocss/core
-
 [UNOCSS Playground](https://unocss.antfu.me/)
 
 The core engine of UnoCSS without any presets. It can be used as the engine of your own atomic CSS framework.
@@ -33,7 +31,7 @@ Inspired by `Windi CSS`, `Tailwind CSS`, `Twind` but:
 - ~3.5kb min+gzip - zero deps and browser friendly.
 - Shortcuts - aliasing utilities, dynamically.
 - Attributify Mode - group utilities in attributes
-- Pure CSS Icons - use any icon as a single class.
+- Pure CSS 
 - Inspector - inspect and debug interatively.
 - CSS-in-JS Runtime version
 - CSS Scoping
@@ -113,7 +111,7 @@ Presets are the heart of UnoCSS that lets you make your own custom framework in 
   - [@unocss/preset-mini](https://github.com/antfu/unocss/tree/main/packages/preset-mini) - The minimal but essential rules and variants.
   - [@unocss/preset-wind](https://github.com/antfu/unocss/tree/main/packages/preset-wind) - Tailwind / Windi CSS compact preset.
   - [@unocss/preset-attributify](https://github.com/antfu/unocss/tree/main/packages/preset-attributify) - Provides Attributify Mode to other presets and rules.
-  - [@unocss/preset-icons](https://github.com/antfu/unocss/tree/main/packages/preset-icons) - Use any icon as a class utility.
+  - [@unocss/preset-
   - [@unocss/preset-web-fonts](https://github.com/antfu/unocss/tree/main/packages/preset-web-fonts) - Web fonts at ease.
 - Community Presets
   - [unocss-preset-typography](https://github.com/ydcjeff/unocss-preset-typography) - Typography Preset by @ydcjeff
@@ -192,7 +190,7 @@ For example, with the following usage:
 ```html
 <div class="m-100">
   <button class="m-3">
-    <icon class="p-5" />
+    <
     My Button
   </button>
 </div>

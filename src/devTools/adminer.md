@@ -1,16 +1,13 @@
----
-title: Adminer SQL Client
-order: 95
+---: Adminer SQL Client
+label: Adminer SQL Client
+order: 57
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,sql,client]
----
-
-You can think of Adminer as a light weight PHPMyAdmin that runs from a single PHP file and is very customizable.
+---You can think of Adminer as a light weight PHPMyAdmin that runs from a single PHP file and is very customizable.
 
 One small issue I had with this as a tool even though it is only for the developers is that out databases don't have any password on them.
 This never used to be a problem because the DB's could not be accessed from anywhere accept for the localhost. To to get past this problem I added authentication to Adminer itself. So you can not simply log into the DB by typing root in the username field, you have to also add you user password in the password field.

@@ -1,19 +1,13 @@
----
-icon: file-symlink-file
-expanded: true
-title: Quasar Boot Files | DEVserv.ME
+---: Quasar Boot Files | DEVserv.ME
 label: Quasar Boot Files
-order: 90
+order: 35
 authors:
   - name: Charl Cronje
     email: charl@devserv.me
     link: https://charl-cv.devserv.me
     avatar: https://assets.devserv.me/avatars/darker.jpg
-date: 2022-01-25
 tags: [dev,tools,js,frontend,backend,devtools,quasar,boot]
----
-
-## Creating a new boot file
+---## Creating a new boot file
 
 ```shell
 quasar new boot <name> [--format ts]
@@ -314,8 +308,8 @@ export default () => {
 
 In order to better understand how a boot file works and what it does, you need to understand how your website/app boots:
 
-1. `Quasar` is initialized (`components`, `directives`, `plugins`, `Quasar` `i18n`, `Quasar` icon sets)
-1. `Quasar` Extras get imported (`Roboto font` – if `used`, `icons`, animations, …)
+1. `Quasar` is initialized (`components`, `directives`, `plugins`, `Quasar` `i18n`, `Quasar` 
+1. `Quasar` Extras get imported (`Roboto font` – if `used`, `
 1. `Quasar` `CSS` & your app’s `global CSS` are imported
 1. `App.vue` is loaded (not yet being used)
 1. `Store` is imported (if using `Vuex` Store in `src/store`)
