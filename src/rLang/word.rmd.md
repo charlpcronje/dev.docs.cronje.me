@@ -1,4 +1,5 @@
----: Word and R Markdown | DEVserv.ME
+---
+title: Word and R Markdown | DEVserv.ME
 label: Word and R Markdown
 order: 101
 authors:

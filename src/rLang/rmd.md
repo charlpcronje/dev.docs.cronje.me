@@ -18,8 +18,8 @@ R Markdown supports dozens of static and dynamic output formats including
 - [MS Word](https://bookdown.org/yihui/rmarkdown/word-document.html)
 - [Beamer](https://bookdown.org/yihui/rmarkdown/beamer-presentation.html) 
 - [HTML5 slides](https://bookdown.org/yihui/rmarkdown/ioslides-presentation.html), 
-- [https://bookdown.org/yihui/rmarkdown/tufte-handouts.html](Tufte-style handouts) 
-[books](https://bookdown.org),
+- [Tufte-style handouts](https://bookdown.org/yihui/rmarkdown/tufte-handouts.html) 
+- [books](https://bookdown.org),
 - [dashboards](https://rmarkdown.rstudio.com/flexdashboard/),
 - [shiny applications](https://bookdown.org/yihui/rmarkdown/shiny-documents.html), 
 - [scientific articles](https://github.com/rstudio/rticles)>, 
@@ -47,7 +47,7 @@ R Markdown supports dozens of static and dynamic output formats including
 ||| Interactive 
 
 !!!
-- [Live Examples](https://beta.rstudioconnect.com/jjallaire/htmlwidgets-highcharter/htmlwidgets-highcharter.html#sales-by-category)
+[Examples Click to Open](https://beta.rstudioconnect.com/jjallaire/htmlwidgets-highcharter/htmlwidgets-highcharter.html#sales-by-category)
 !!!
 
 ![report1](examples/1.png)
@@ -58,7 +58,7 @@ R Markdown supports dozens of static and dynamic output formats including
 ||| Sales Reports
 
 !!!
-- [Widget Showcases](https://beta.rstudioconnect.com/jjallaire/htmlwidgets-showcase-storyboard/htmlwidgets-showcase-storyboard.html)
+[Widgets Click to Open](https://beta.rstudioconnect.com/jjallaire/htmlwidgets-showcase-storyboard/htmlwidgets-showcase-storyboard.html)
 !!!
 
 ![report1](examples/5.png)
