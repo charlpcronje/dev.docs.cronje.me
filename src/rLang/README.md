@@ -19,7 +19,7 @@ R is a programming language for statistical computing and graphics supported by 
   - [Install R](installR.md)
   - [R Studio](rstudio.md)
 - [R Markdown](rmd.md)
-  - [!file R Markdown Cheat sheet](mdCheatsheet.pdf)
+  - [R Markdown Cheat sheet](mdCheatsheet.pdf)
   - [Markdown Templates](mdTemplates.md)
   - [Portfolio Template](cvTemplare.md)
 - [Quarto guide](quartoGuide.md)

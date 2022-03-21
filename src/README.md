@@ -55,6 +55,7 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [Preloading & Prefetching](./html/prefetchAndPreload.md)
 - [Themes & Design](./html/themesAndDesign.md)
 - [UNOCSS](./html/unocss.md)
+- [CSS Grid](https://www.youtube.com/watch?v=0xMQfnTU6oo)
 
 ### JavaScript
 
@@ -71,6 +72,7 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [Cash JS](./js/libs/cash-js.md)
 - [jsDoc](./js/libs/jsDoc.md)
 - [PReact](./js/libs/PReact.md)
+- [jsMVC](./js/libs/jsMVC.md)
 
 ### Vue.js Framework
 

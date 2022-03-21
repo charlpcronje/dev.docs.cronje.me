@@ -3,13 +3,12 @@ title: Install RStudio | DEVserv.ME
 label: Install RStudio
 order: 162
 authors:
-  - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    - name: Charl Cronje
+      email: charl@devserv.me
+      link: https://charl-cv.devserv.me
+      avatar: https://assets.devserv.me/avatars/darker.jpg
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 ---
-
 RStudio Server is the web edition of RStudio which is a series of tools designed to facilitate the coding job using the R programming language.
 
 ## Prerequisites

@@ -41,7 +41,7 @@ R Markdown supports dozens of static and dynamic output formats including
 - [A Tufte Handout Example](https://rstudio.github.io/tufte)
 - [Leaflet Layers Example](https://rpubs.com/jcheng/leaflet-layers-example)
 - [Cran Gauge Example](https://gallery.shinyapps.io/cran-gauge/)
-  - [cran.rstudio.com](cran.rstudio.com)
+  - [Comprehensive R Archive Network for rstudio.com](http://cran.rstudio.com)
 
 
 ||| Interactive 
