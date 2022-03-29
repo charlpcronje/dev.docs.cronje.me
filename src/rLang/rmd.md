@@ -30,7 +30,6 @@ R Markdown supports dozens of static and dynamic output formats including
 
 [https://rmarkdown.rstudio.com](https://rmarkdown.rstudio.com)
 
-
 ## Some More Interesting Links
 
 - **[R Cheat Sheet](mdCheatsheet.pdf)**
