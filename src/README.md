@@ -74,11 +74,12 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [PReact](./js/libs/PReact.md)
 - [jsMVC](./js/libs/jsMVC.md)
 
-### JS Document Editors
+### JS Document Editors and Site Generators
 
 - [SlateJS](https://www.smashingmagazine.com/2021/05/building-wysiwyg-editor-javascript-slatejs/)
   - [Slate on GitHub](https://github.com/smashingmagazine/wysiwyg-editor)
 - [SlateJS Examples](slatejs/README.md)
+- [Gatsby + Netlify CMS Starter](https://github.com/ritesh2204/gatsby-starter-netlify-cms)
 ### Vue.js Framework
 
 - [Vue.js](js/vue/README.md)
