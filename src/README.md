@@ -18,13 +18,13 @@ tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 
 ## Bash Scripting
 
-Bash is not the most exciting topic and I would a very nice feferecne to most if the issues I've ever experienced: [Bash Scripting](https://www.javatpoint.com/bash-scripting)
+Bash is not the most exciting topic and I would a very nice reference to most if the issues I've ever experienced: [Bash Scripting](https://www.javatpoint.com/bash-scripting)
 
 ## [Dev Tools](./devTools/README.md)
 
 - I created a few development tools that can plug into any `backend` or `frontend` to give me instant `feedback` on any requested `module` / `class`, `method` or `function`
 - It is also important to get `feedback` on the `time spend` executing certain tasks.
-- Since `PHP 7.4` when they introduced the `PHP RFC: Preload` I saw an oportunity by preloading the `dev tools`, I get to `hook` into any code loaded afterwards, giving me access to monitor any system without interfering with any existing code.
+- Since `PHP 7.4` when they introduced the `PHP RFC: Preload` I saw an opportunity by preloading the `dev tools`, I get to `hook` into any code loaded afterwards, giving me access to monitor any system without interfering with any existing code.
 
 ## Some of the tools
 
@@ -83,6 +83,12 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [SlateJS](https://www.smashingmagazine.com/2021/05/building-wysiwyg-editor-javascript-slatejs/)
   - [Slate on GitHub](https://github.com/smashingmagazine/wysiwyg-editor)
 - [SlateJS Examples](slatejs/README.md)
+
+### Code sandbox
+
+- [Code Sandbox Client](https://github.com/codesandbox/codesandbox-client)
+- [GrapesJS Examples](https://codesandbox.io/examples/package/grapesjs)
+- []
 
 ### Vue.js Framework
 
@@ -170,3 +176,4 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 
 - [octIcons](./icons/octIcons.md)  
 - [Material Design Icons](./icons/materialIcons.md)
+  
