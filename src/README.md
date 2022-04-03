@@ -73,6 +73,8 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [jsDoc](./js/libs/jsDoc.md)
 - [PReact](./js/libs/PReact.md)
 - [jsMVC](./js/libs/jsMVC.md)
+- [GreenSock 'GSAP'](./js/libs/gsap.md)
+  - [Simple Example](https://www.youtube.com/watch?v=m6PDUIF24v4)
 
 ### JS Document Editors, Mockups and Site Generators
 
@@ -83,12 +85,21 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [SlateJS](https://www.smashingmagazine.com/2021/05/building-wysiwyg-editor-javascript-slatejs/)
   - [Slate on GitHub](https://github.com/smashingmagazine/wysiwyg-editor)
 - [SlateJS Examples](slatejs/README.md)
+- [Plate Editor Playground](https://codesandbox.io/s/2mh1c)
 
 ### Code sandbox
 
 - [Code Sandbox Client](https://github.com/codesandbox/codesandbox-client)
 - [GrapesJS Examples](https://codesandbox.io/examples/package/grapesjs)
-- []
+- [GrapesJS Block (Good)](https://codesandbox.io/s/lej2t?file=/src/index.js)
+- [GrapesJS Newsletter](https://codesandbox.io/s/urxqy?file=/src/App.js)]
+- [GrapesJS MicroSite Builder](https://codesandbox.io/s/o9hxu)
+- [Tailwind CSS](https://codesandbox.io/examples/package/tailwindcss)
+- [Tailwind Dropdown with group-hover](https://codesandbox.io/s/gm9k9)
+- [Dark Mode Tailwind](https://codesandbox.io/s/ndpw4)
+- [Subscribe To Our Newsletter](https://codesandbox.io/s/r3wu9?file=/src/index.js)
+- [React Table](https://codesandbox.io/s/sw030?file=/src/App.js)
+- [Nuxt starter](https://codesandbox.io/s/h0z15)
 
 ### Vue.js Framework
 
