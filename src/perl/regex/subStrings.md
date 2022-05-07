@@ -1,12 +1,12 @@
 ---
-title: Sub-String Matching | DEVserv.ME
+title: Sub-String Matching | CRONje.ME
 label: Sub-String Matching
 order: 29
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 ---
 # Sub-String Matching for [sample data](regexForSSHAgent.md)
 

@@ -1,12 +1,12 @@
 ---
-title: .env Process Javascript | DEVserv.ME
+title: .env Process Javascript | CRONje.ME
 label: .env Process
 order: 75
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 tags: [dev,tools,js,frontend,backend,devtools,quasar,sass,.env,process]
 ---
 

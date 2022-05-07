@@ -1,12 +1,12 @@
 ---
-title: Hash::Digger | DEVserv.ME
+title: Hash::Digger | CRONje.ME
 label: Hash::Digger
 order: 50
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 ---
 
 

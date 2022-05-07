@@ -1,12 +1,12 @@
 ---
-title: Boot Plugin in Quasar | DEVserv.ME
+title: Boot Plugin in Quasar | CRONje.ME
 label: Boot Plugin
 order: 84
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 tags: [dev,tools,js,frontend,backend,devtools,quasar,boot,plugin]
 ---
 

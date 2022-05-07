@@ -1,11 +1,11 @@
 ---
-title: CV in R Markdown | DEVserv.ME
+title: CV in R Markdown | CRONje.ME
 label: CV in R Markdown 
 order: 155
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 ---
 
 ||| RStudio

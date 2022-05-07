@@ -1,12 +1,12 @@
 ---
-title: Getting Started | DEVserv.ME
+title: Getting Started | CRONje.ME
 label: Getting Started Perl
 order: 62
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 tags: [dev,tools,js,frontend,backend,devtools,quasar,sass]
 ---
 
@@ -15,5 +15,5 @@ tags: [dev,tools,js,frontend,backend,devtools,quasar,sass]
 3. Run the following im elevated Command Prompt
 
 ```cmd
-powershell -Command "& $([scriptblock]::Create((New-Object Net.WebClient).DownloadString('https://platform.activestate.com/dl/cli/pdli01/install.ps1'))) -activate-default charl-isa/Perl-5.32"
+powershell -Command "& $([scriptblock]::Create((New-Object Net.WebClient).DownloadString('https://platform.activestate.com/dl/cli/pdli01/install.ps1'))) -activate-default charl.isa/Perl-5.32"
 ```

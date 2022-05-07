@@ -4,9 +4,9 @@ label: Node.js Cmd Line App
 order: 110
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 tags: [dev,tools,js,backend,developer,devtools,node.js,node cli]
 ___
 
@@ -22,14 +22,14 @@ npm init -y
 
 ## Edit `package.json`
 
-Add `"type" : "module"` below the `"homepage": "https://devserv.me""` entry so that it looks like this
+Add `"type" : "module"` below the `"homepage": "https://CRONje.ME""` entry so that it looks like this
 
 ```json
 {
   "name": "DevServed",
   "version": "0.0.4",
   "description": "Who wants to be a JavaScript millionaire?",
-  "homepage": "https://devserv.me",
+  "homepage": "https://CRONje.ME",
   "type": "module",
   "repository": {
     "type": "git",

@@ -1,12 +1,12 @@
 ---
-title: Singleton Perl Module | DEVserv.ME
+title: Singleton Perl Module | CRONje.ME
 label: Singleton Perl Module
 order: 54
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 ---
 
 ```sh

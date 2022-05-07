@@ -1,12 +1,12 @@
 ---
-title: Dots and Perl | DEVserv.ME
+title: Dots and Perl | CRONje.ME
 label: Dots and Perl
 order: 55
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 ---
 
 I was running a training course this week, and a conversation I had with the class reminded me that I have been planning to write this article for many months.

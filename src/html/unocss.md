@@ -1,12 +1,12 @@
 ---
-title: UNOCSS | DEVserv.ME
+title: UNOCSS | CRONje.ME
 label: UNOCSS 
 order: 120
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 tags: [dev,tools,start,frontend,css,developer,devtools,uno,unocss]
 ---
 

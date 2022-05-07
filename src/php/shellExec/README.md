@@ -1,12 +1,12 @@
 ---
-title: Run Shell Exec as sudo | DEVserv.ME
+title: Run Shell Exec as sudo | CRONje.ME
 label: Run Shell Exec as sudo
 order: 19
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 tags: [dev,tools,js,frontend,backend,devtools,php,laravel]
 ---
 ## Solution using a binary wrapper (with suid bit)

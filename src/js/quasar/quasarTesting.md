@@ -1,12 +1,12 @@
 --- 
-title: Quasar Testing | DEVserv.ME
+title: Quasar Testing | CRONje.ME
 label: Quasar Testing
 order: 73
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 tags: [dev,tools,js,frontend,backend,devtools,quasar,test,testing,unit]
 ---
 

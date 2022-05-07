@@ -1,6 +1,6 @@
 # SlateJS Examples
 
-These examples can be found at [slate.lab.devserv.me](https://slate.lab.devserv.me)
+These examples can be found at [slate.lab.CRONje.ME](https://slate.lab.CRONje.ME)
 
 - [Rich Text](https://www.slatejs.org/examples/richtext)
 - [Check Lists](https://www.slatejs.org/examples/check-lists)

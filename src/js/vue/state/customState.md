@@ -1,12 +1,12 @@
 ---
-title: Custom State Management - DEVserv.ME
+title: Custom State Management - CRONje.ME
 label: Custom State Management
 order: 70
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 tags: [dev,js,php,frontend,developer,devtools,state,js]
 ---
 After using Vuex and Pinia for little while I did not like either one of them

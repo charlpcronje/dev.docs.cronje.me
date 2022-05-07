@@ -1,12 +1,12 @@
 ---
-title: Perl IDE's | DEVserv.ME
+title: Perl IDE's | CRONje.ME
 label: Perl IDE's
 order: 61
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 ---
 
 - [Padre Features](https://padre.perlide.org/features/)

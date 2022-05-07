@@ -1,12 +1,12 @@
 ---
-title: Sample Data for Regex | DEVserv.ME
+title: Sample Data for Regex | CRONje.ME
 label: Sample Data for Regex
 order: 30
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 ---
 
 > Here is the sample data that I used to create the example referenced here at *2. Example:* [Regular Expressions for SSH Agent](regexForSSHAgent.md)

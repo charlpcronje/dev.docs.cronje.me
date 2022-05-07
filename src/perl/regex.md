@@ -1,12 +1,12 @@
 ---
-title: Perl Regex | DEVserv.ME
+title: Perl Regex | CRONje.ME
 label: Perl Regex
 order: 28
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 ---
 # Perl Text Patterns for Search and Replace
 

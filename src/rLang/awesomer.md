@@ -1,12 +1,12 @@
 ---
-title: Awesome R | DEVserv.ME
+title: Awesome R | CRONje.ME
 label: Awesome R
 order: 16
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 ---
 
@@ -91,7 +91,7 @@ A curated list of awesome R packages and tools. Inspired by [awesome-machine-lea
 * [Nvim-R](https://github.com/jalvesaq/Nvim-R) - Neovim plugin for R.
 * [Jamovi](https://www.jamovi.org/) and [JASP](https://jasp-stats.org/) - Desktop software for both Bayesian and Frequentist methods, using a UI familiar to SPSS users.
 * [Bio7](http://www.bio7.org/) - An IDE contains tools for model creation, scientific image analysis and statistical analysis for ecological modelling.
-* [RTVS](http://microsoft.github.io/RTVS-docs/) - R Tools for Visual Studio.
+* [RTVS](http://microsoft.github.io/RTVS.docs/) - R Tools for Visual Studio.
 * [radian <img class="emoji" alt="heart" src="https://cdn.jsdelivr.net/gh/qinwf/awesome-R@3c66da6e291bcc0520b1649125b0bed750896a9a/heart.png" height="20" align="absmiddle" width="20">](https://github.com/randy3k/radian) (formerly rtichoke) - A modern R console with syntax highlighting.
 * [RKWard](https://rkward.kde.org/) - An extensible IDE/GUI for R.
 ===
@@ -595,7 +595,7 @@ Angle Regression
 
 * [R-project](http://www.r-project.org/) - The R Project for Statistical Computing.
 * [An Introduction to R](https://cran.r-project.org/doc/manuals/R-intro.pdf) - A very good introductory text on R, also covers some advanced topic. See also the `Manuals` section on [CRAN](https://cran.r-project.org/manuals.html)
-* [CRAN Contributed Docs](https://cran.r-project.org/other-docs.html) - CRAN Contributed Documentation in many languages.
+* [CRAN Contributed Docs](https://cran.r-project.org/other.docs.html) - CRAN Contributed Documentation in many languages.
 * [Quick-R](http://www.statmethods.net/) - An excellent quick reference
 * [tryR](http://tryr.codeschool.com/) - A quick course for getting started with R.
 

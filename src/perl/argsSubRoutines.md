@@ -1,12 +1,12 @@
 ---
-title: Argument Parsing Sub-Routines | DEVserv.ME
+title: Argument Parsing Sub-Routines | CRONje.ME
 label: Argument Parsing SR
 order: 60
 authors:
   - name: Charl Cronje
-    email: charl@devserv.me
-    link: https://charl-cv.devserv.me
-    avatar: https://assets.devserv.me/avatars/darker.jpg
+    email: charl@CRONje.ME
+    link: https://charl-cv.CRONje.ME
+    avatar: https://assets.CRONje.ME/avatars/darker.jpg
 ---
 
 ```perl
