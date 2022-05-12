@@ -6,7 +6,7 @@ authors:
   - name: Charl Cronje
     email: charl@CRONje.ME
     link: https://blog.cronje.me
-    avatar: https://assets.CRONje.ME/avatars/darker.jpg
+    avatar: https://assets.cronje.me/avatars/darker.jpg
 ---
 
 This module provides a small, fast utility for working with file paths. It is friendlier to use than File::Spec and provides easy access to functions from several other core file handling modules. It aims to be smaller and faster than many alternatives on CPAN, while helping people do many common things in consistent and less error-prone ways.

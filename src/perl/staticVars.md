@@ -6,7 +6,7 @@ authors:
   - name: Charl Cronje
     email: charl@CRONje.ME
     link: https://blog.cronje.me
-    avatar: https://assets.CRONje.ME/avatars/darker.jpg
+    avatar: https://assets.cronje.me/avatars/darker.jpg
 ---
 
 In most of the cases we either want a variable to be accessible only from inside a small scope, inside a function or even inside a loop. These variables get created when we enter the function (or the scope created by a a block) and destroyed when we leave the scope.

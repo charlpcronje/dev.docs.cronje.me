@@ -6,7 +6,7 @@ authors:
   - name: Charl Cronje
     email: charl@CRONje.ME
     link: https://blog.cronje.me
-    avatar: https://assets.CRONje.ME/avatars/darker.jpg
+    avatar: https://assets.cronje.me/avatars/darker.jpg
 tags: [dev,js,php,frontend,developer,devtools,state,js]
 ---
 After using Vuex and Pinia for little while I did not like either one of them

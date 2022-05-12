@@ -6,7 +6,7 @@ authors:
     - name: Charl Cronje
       email: charl@CRONje.ME
       link: https://blog.cronje.me
-      avatar: https://assets.CRONje.ME/avatars/darker.jpg
+      avatar: https://assets.cronje.me/avatars/darker.jpg
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 ---
 RStudio Server is the web edition of RStudio which is a series of tools designed to facilitate the coding job using the R programming language.

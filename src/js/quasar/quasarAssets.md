@@ -6,7 +6,7 @@ authors:
   - name: Charl Cronje
     email: charl@CRONje.ME
     link: https://blog.cronje.me
-    avatar: https://assets.CRONje.ME/avatars/darker.jpg
+    avatar: https://assets.cronje.me/avatars/darker.jpg
 tags: [dev,tools,js,frontend,backend,devtools,quasar,boot,plugin,assets]
 ---
 You will notice in the project structure we have two directories for assets: `/public/` and `/src/assets/`. What is the difference between them? Some are static assets while the others are processed and embedded by the build system.

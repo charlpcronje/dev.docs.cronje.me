@@ -6,7 +6,7 @@ authors:
   - name: Charl Cronje
     email: charl@CRONje.ME
     link: https://blog.cronje.me
-    avatar: https://assets.CRONje.ME/avatars/darker.jpg
+    avatar: https://assets.cronje.me/avatars/darker.jpg
 ---
 
 > Here is the sample data that I used to create the example referenced here at *2. Example:* [Regular Expressions for SSH Agent](regexForSSHAgent.md)

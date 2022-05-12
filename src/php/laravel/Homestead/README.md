@@ -5,7 +5,7 @@ authors:
   - name: Charl Cronje
     email: charl@CRONje.ME
     link: https://blog.cronje.me
-    avatar: https://assets.CRONje.ME/avatars/darker.jpg
+    avatar: https://assets.cronje.me/avatars/darker.jpg
 tags: [dev,tools,js,frontend,backend,devtools,php,laravel]
 ---
 # [Laravel Homestead - Laravel - The PHP Framework For Web Artisans](https://laravel.com/docs/7.x/homestead#configuring-homestead)
