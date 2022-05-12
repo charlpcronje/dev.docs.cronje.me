@@ -5,7 +5,7 @@ order: 29
 authors:
   - name: Charl Cronje
     email: charl@CRONje.ME
-    link: https://charl-cv.CRONje.ME
+    link: https://blog.cronje.me
     avatar: https://assets.CRONje.ME/avatars/darker.jpg
 ---
 # Sub-String Matching for [sample data](regexForSSHAgent.md)

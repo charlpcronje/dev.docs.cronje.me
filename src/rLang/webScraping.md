@@ -5,7 +5,7 @@ order: 5
 authors:
   - name: Charl Cronje
     email: charl@CRONje.ME
-    link: https://charl-cv.CRONje.ME
+    link: https://blog.cronje.me
     avatar: https://assets.CRONje.ME/avatars/darker.jpg
 ---
 This vignette introduces you to the basics of web scraping with rvest. You’ll first learn the basics of HTML and how to use CSS selectors to refer to specific elements, then you’ll learn how to use rvest functions to get data out of HTML and into R.

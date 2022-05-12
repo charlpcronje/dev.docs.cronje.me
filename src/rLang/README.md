@@ -5,7 +5,7 @@ order: 17
 authors:
   - name: Charl Cronje
     email: charl@CRONje.ME
-    link: https://charl-cv.CRONje.ME
+    link: https://blog.cronje.me
     avatar: https://assets.CRONje.ME/avatars/darker.jpg
 ---
 R is a programming language for statistical computing and graphics supported by the R Core Team and the R Foundation for Statistical Computing. Created by statisticians Ross Ihaka and Robert Gentleman, R is used among data miners and statisticians for data analysis and developing statistical software

@@ -5,7 +5,7 @@ order: 180
 authors:
   - name: Charl Cronje
     email: charl@CRONje.ME
-    link: https://charl-cv.CRONje.ME
+    link: https://blog.cronje.me
     avatar: https://assets.CRONje.ME/avatars/darker.jpg
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 ---
@@ -61,6 +61,7 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 
 - [GraphQL](./js/graphql/README.md)
 - [GraphQL & Axios](./js/graphql/axios.md)
+- [Cash.js](./js/libs/cash-js.md)
 
 ### Node.js - Server Side Scripting
 
