@@ -26,6 +26,10 @@ Bash is not the most exciting topic and I would a very nice reference to most if
 - It is also important to get `feedback` on the `time spend` executing certain tasks.
 - Since `PHP 7.4` when they introduced the `PHP RFC: Preload` I saw an opportunity by preloading the `dev tools`, I get to `hook` into any code loaded afterwards, giving me access to monitor any system without interfering with any existing code.
 
+## Design Patterns
+
+- [10 Design Patterns Explained in 10 minutes](./tenDesignPatterns.md)
+
 ## Some of the tools
 
 - [Getting Started](./devTools/README.md)
