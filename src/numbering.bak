@@ -1,172 +1,171 @@
-      ---
-      Title: Development | CRONje.ME
-      label: Development - Home
-      order: 65
-      authors:
-        - name: Charl Cronje
-          email: charl@CRONje.ME
-          link: https://blog.cronje.me
-          avatar: https://assets.cronje.me/avatars/darker.jpg
-      tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
-      ---
+---
+Title: Development | CRONje.ME
+label: Development - Home
+order: 65
+authors:
+- name: Charl Cronje
+  email: charl@CRONje.ME
+  link: https://blog.cronje.me
+  avatar: https://assets.cronje.me/avatars/darker.jpg
+tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
+---
+
+```sh
+.__ .___.  ..___.   .__..__ .  ..___.  ..___.   .  ..___
+|  \[__ \  /[__ |   |  |[__)|\/|[__ |\ |  |     |\/|[__ 
+|__/[___ \/ [___|___|__||   |  |[___| \|  |   * |  |[___
+```
+
+## RStudio IDE
+- [R Programming](./rLang/README.md)
+- [Awesome R](./rLang/awesomer.md)
+- [Install R](./rLang/installR.md)
+- [R Studio](./rLang/rstudio.md)
+- [R Markdown](./rLang/rmd.md)
+  - [Markdown Templates](./rLang/mdTemplates.md)
+  - [Portfolio Template](./rLang/cvTemplare.md)
+  - [Quarto guide](./rLang/quartoGuide.md)
+- [Web-Scraping](./rLang/webScraping.md)
       
-      ```sh
-      .__ .___.  ..___.   .__..__ .  ..___.  ..___.   .  ..___
-      |  \[__ \  /[__ |   |  |[__)|\/|[__ |\ |  |     |\/|[__ 
-      |__/[___ \/ [___|___|__||   |  |[___| \|  |   * |  |[___
-                                                              
-      ```
-170      ## RStudio IDE
+## Bash Scripting
       
-165      - [R Programming](./rLang/README.md)
-164         - [Awesome R](./rLang/awesomer.md)
-163         - [Install R](./rLang/installR.md)
-162         - [R Studio](./rLang/rstudio.md)
-161      - [R Markdown](./rLang/rmd.md)
-160        - [Markdown Templates](./rLang/mdTemplates.md)
-155        - [Portfolio Template](./rLang/cvTemplare.md)
-154        - [Quarto guide](./rLang/quartoGuide.md)
-153      - [Web-Scraping](./rLang/webScraping.md)
+Bash is not the most exciting topic and I would a very nice feferecne to most if the issues I've ever experienced: [Bash Scripting](https://www.javatpoint.com/bash-scripting)
       
-152      ## Bash Scripting
+## [Dev Tools](./devTools/README.md)
       
-      Bash is not the most exciting topic and I would a very nice feferecne to most if the issues I've ever experienced: [Bash Scripting](https://www.javatpoint.com/bash-scripting)
+- I created a few development tools that can plug into any `backend` or `frontend` to give me instant `feedback` on any requested `module` /      `class`, `method` or `function`
+- It is also important to get `feedback` on the `time spend` executing certain tasks.
+- Since `PHP 7.4` when they introduced the `PHP RFC: Preload` I saw an oportunity by preloading the `dev tools`, I get to `hook` into any code      loaded afterwards, giving me access to monitor any system without interfering with any existing code.
       
-151      ## [Dev Tools](./devTools/README.md)
+## Some of the tools
       
-      - I created a few development tools that can plug into any `backend` or `frontend` to give me instant `feedback` on any requested `module` /      `class`, `method` or `function`
-      - It is also important to get `feedback` on the `time spend` executing certain tasks.
-      - Since `PHP 7.4` when they introduced the `PHP RFC: Preload` I saw an oportunity by preloading the `dev tools`, I get to `hook` into any code      loaded afterwards, giving me access to monitor any system without interfering with any existing code.
+- [Getting Started](./devTools/README.md)
+- [Console Log Anything](./devTools/consoleLog.md)
+- [Error Reporting](./devTools/errorReporting.md)
+- [Log Helpers](./devTools/logHelpers.md)
+- [Routing](./devTools/route.md)
       
-150      ## Some of the tools
+### 3rd Party MySQL Client
       
-145      - [Getting Started](./devTools/README.md)
-144      - [Console Log Anything](./devTools/consoleLog.md)
-143      - [Error Reporting](./devTools/errorReporting.md)
-142      - [Log Helpers](./devTools/logHelpers.md)
-141      - [Routing](./devTools/route.md)
+Adminer is a single PHP file web based mysql client, very handy for remote SQL Management
       
-140      ### 3rd Party MySQL Client
+- [Adminer](./devTools/adminer.md)
       
-      Adminer is a single PHP file web based mysql client, very handy for remote SQL Management
+## Public API's
       
-135      - [Adminer](./devTools/adminer.md)
+- [Twillo Public WhatsApp API](./api/twillo.md)
       
-134      ## Public API's
+## Chrome Extensions
       
-133      - [Twillo Public WhatsApp API](./api/twillo.md)
+- [Manifest V3](./chromeExt/manifestV3.md)
+- [Options Page](./chromeExt/optionsPage.md)
       
-132      ## Chrome Extensions
+## Frontend Development
       
-131      - [Manifest V3](./chromeExt/manifestV3.md)
-130      - [Options Page](./chromeExt/optionsPage.md)
+- [Prototyping](./html/README.md)
+- [Preloading & Prefetching](./html/prefetchAndPreload.md)
+- [Themes & Design](./themesAndDesign.md)
+- [UNOCSS](./css/unocss.md)
       
-125      ## Frontend Development
+### JavaScript
       
-124      - [Prototyping](./html/README.md)
-123      - [Preloading & Prefetching](./html/prefetchAndPreload.md)
-122     - [Themes & Design](./themesAndDesign.md)
-120      - [UNOCSS](./css/unocss.md)
+- [GraphQL](./js/graphql/README.md)
+- [GraphQL & Axios](./js/graphql/axios.md)
       
-115      ### JavaScript
+### Node.js - Server Side Scripting
       
-114      - [GraphQL](./js/graphql/README.md)
-113      - [GraphQL & Axios](./js/graphql/axios.md)
+- [Node Version Manager](./node/nvm.md)
+- [Creating a node.js Cmd Line App](./node/nodecli.md)
       
-112     ### Node.js - Server Side Scripting
+### JS Libraries
       
-111      - [Node Version Manager](./node/nvm.md)
-110      - [Creating a node.js Cmd Line App](./node/nodecli.md)
+- [Cash JS](./js/libs/cash-js.md)
+- [jsDoc](./js/libs/jsDoc.md)
+- [PReact](./js/libs/PReact.md)
       
-105      ### JS Libraries
+### Vue.js Framework
       
-104      - [Cash JS](./js/libs/cash-js.md)
-103      - [jsDoc](./js/libs/jsDoc.md)
-102      - [PReact](./js/libs/PReact.md)
+- [Vue.js](js/vue/README.md)
+- [Install Vue and it's SFC, CLI](./js/vue/installVue.md)
+- [Different Builds](./js/vue/differentBuilds.md)
+- [Composition API](./js/vue/composition/api.md)
+- [Fetching Data](./js/vue/composition/fetchData.md)
+- [Vue Web Storage](./js/vue/vueWebStorage.md)
       
-101      ### Vue.js Framework
+### Quasar JS Frameworks  
       
-100      - [Vue.js](js/vue/README.md)
-95       - [Install Vue and it's SFC, CLI](./js/vue/installVue.md)
-94       - [Different Builds](./js/vue/differentBuilds.md)
-93       - [Composition API](./js/vue/composition/api.md)
-92       - [Fetching Data](./js/vue/composition/fetchData.md)
-91       - [Vue Web Storage](./js/vue/vueWebStorage.md)
+- [Quasar](./js/quasar/README.md)
+- [Command List](./js/quasar/commandList.md)
+- [Global Components](./js/quasar/globalComponents.md)
+- [Boot Files](./js/quasar/bootFiles.md)
+- [Boot Plugin](./js/quasar/bootPlugin.md)
+- [Quasar Pre-fetch](./js/quasar/quasarPrefetch.md)
+- [Quasar Assets](./js/quasar/quasarAssets.md)
+- [API Proxy](./js/quasar/apiProxy.md)
+- [Sass in JS](./js/quasar/sassInJs.md)
+- [env Process](./js/quasar/envProcess.md)
+- [Deploying Or Building](./js/quasar/deployingOrBuilding.md)
+- [Quasar Testing](./js/quasar/quasarTesting.md)
+- [Dev For Public](./js/quasar/devForPublic.md)
       
-90      ### Quasar JS Frameworks  
+### State Management
       
-93      - [Quasar](./js/quasar/README.md)
-92      - [Command List](./js/quasar/commandList.md)
-91      - [Global Components](./js/quasar/globalComponents.md)
-85      - [Boot Files](./js/quasar/bootFiles.md)
-84      - [Boot Plugin](./js/quasar/bootPlugin.md)
-83      - [Quasar Pre-fetch](./js/quasar/quasarPrefetch.md)
-82      - [Quasar Assets](./js/quasar/quasarAssets.md)
-81      - [API Proxy](./js/quasar/apiProxy.md)
-80      - [Sass in JS](./js/quasar/sassInJs.md)
-75      - [env Process](./js/quasar/envProcess.md)
-74      - [Deploying Or Building](./js/quasar/deployingOrBuilding.md)
-73      - [Quasar Testing](./js/quasar/quasarTesting.md)
-72      - [Dev For Public](./js/quasar/devForPublic.md)
+- [Custom State Management](customState.md)
       
-71      ### State Management
+### Build Tools
       
-70      - [Custom State Management](customState.md)
+- [Vite](./js/vite/README.md)
+
+## Perl Development
       
-65      ### Build Tools
+- [Getting started with Perl](perl/gettingStarted.md)
+- [Perl Scripting IDE's](perl/perlIDEs.md)
+- [Argument Parsing Sub-Routines](perl/argsSubRoutines.md)
+- [Dots in Perl](perl/dotsInPerl.md)
+- [Singletons](perl/singleton.md)
+- [Static Variables](perl/staticVars.md)
+- [Variable variables](perl/variableVariables.md)
       
-64      - [Vite](./js/vite/README.md)
+### Perl Libraries
       
-63      ## Perl Development
+- [Hash.Digger](perl/libs/Hash.Digger.md)
+- [!file Hash.Digger Module](libs/Hash.Digger.pm)
+- [Class.Tiny](perl/tiny/Class.Tiny.md)
+- [Config.Tiny](perl/tiny/Config.Tiny.md)
+- [HTML.Tiny](perl/tiny/HTML.Tiny.md)
+- [Path.Tiny](perl/tiny/Path.Tiny.md)
+- [Set.Tiny](perl/tiny/Set.Tiny.md)
+- [SQL.Tiny](perl/tiny/SQL.Tiny.md)
+- [XML.Tiny](perl/tiny/XML.Tiny.md)
       
-62      - [Getting started with Perl](perl/gettingStarted.md)
-61      - [Perl Scripting IDE's](perl/perlIDEs.md)
-60      - [Argument Parsing Sub-Routines](perl/argsSubRoutines.md)
-55      - [Dots in Perl](perl/dotsInPerl.md)
-54      - [Singletons](perl/singleton.md)
-53      - [Static Variables](perl/staticVars.md)
-52      - [Variable variables](perl/variableVariables.md)
+### Perl Regular Expressions
       
-51      ### Perl Libraries
+- [Regex Basics](perl/regex/regexBasics.md)
+- [Regex for SSH Agent](perl/regex/regexForSSHAgent.md)
+- [Sample Data](perl/regex/sampleData.md)
+- [Sub Strings](perl/regex/subStrings.md)
+- [Regex in Perl](perl/regex.md)
       
-50      - [Hash.Digger](perl/libs/Hash.Digger.md)
-45      - [!file Hash.Digger Module](libs/Hash.Digger.pm)
-44      - [Class.Tiny](perl/tiny/Class.Tiny.md)
-43      - [Config.Tiny](perl/tiny/Config.Tiny.md)
-42      - [HTML.Tiny](perl/tiny/HTML.Tiny.md)
-41      - [Path.Tiny](perl/tiny/Path.Tiny.md)
-40      - [Set.Tiny](perl/tiny/Set.Tiny.md)
-39      - [SQL.Tiny](perl/tiny/SQL.Tiny.md)
-38      - [XML.Tiny](perl/tiny/XML.Tiny.md)
+## PHP Development
       
-37      ### Perl Regular Expressions
+- [PHP](./php/README.md)
+- [Preload](./php/preload.md)
+- [Laravel](./php/laravel/README.md)
+- [Laravel CORS](./php/laravel/cors.md)
+- [Run shell_exec as sudo](./php/shellExec/README.md)
       
-36      - [Regex Basics](perl/regex/regexBasics.md)
-35      - [Regex for SSH Agent](perl/regex/regexForSSHAgent.md)
-30      - [Sample Data](perl/regex/sampleData.md)
-29      - [Sub Strings](perl/regex/subStrings.md)
-28      - [Regex in Perl](perl/regex.md)
-      
-27      ## PHP Development
-      
-26      - [PHP](./php/README.md)
-25      - [Preload](./php/preload.md)
-20      - [Laravel](./php/laravel/README.md)
-20     - [Laravel CORS](./php/laravel/cors.md)
-19      - [Run shell_exec as sudo](./php/shellExec/README.md)
-      
-18      ## RStudio IDE
-17      ### - [R Programming](./rLang/README.md)
-16       - [Awesome R](./rLang/awesomer.md)
-15        - [Install R](./rLang/installR.md)
-10        - [R Studio](./rLang/rstudio.md)
-9      ### - [R Markdown](./rLang/rmd.md)
-8        - [Markdown Templates](./rLang/mdTemplates.md)
-7        - [Portfolio Template](./rLang/cvTemplare.md)
-6        - [Quarto guide](./rLang/quartoGuide.md)
-5      ### - [Web-Scraping](./rLang/webScraping.md)
+## RStudio IDE
+### - [R Programming](./rLang/README.md)
+- [Awesome R](./rLang/awesomer.md)
+- [Install R](./rLang/installR.md)
+- [R Studio](./rLang/rstudio.md)
+### - [R Markdown](./rLang/rmd.md)
+- [Markdown Templates](./rLang/mdTemplates.md)
+- [Portfolio Template](./rLang/cvTemplare.md)
+- [Quarto guide](./rLang/quartoGuide.md)
+### - [Web-Scraping](./rLang/webScraping.md)
      
-4      ## Icon Sets
+## Icon Sets
      
-2      - [octIcons](./icons/octIcons.md)  
-1      - [Material Design Icons](./icons/materialIcons.md)
+- [octIcons](./icons/octIcons.md)  
+- [Material Design Icons](./icons/materialIcons.md)

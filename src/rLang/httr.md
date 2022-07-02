@@ -1,4 +1,7 @@
-# HTTP Requests with httr
+---
+title: HTTP Requests with httr
+---
+<script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
 
 The goal of this document is to get you up and running with httr as quickly as possible. httr is designed to map closely to the underlying http protocol. I'll try and explain the basics in this intro, but I'd also recommend [HTTP: The Protocol Every Web Developer Must Know](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177) or [HTTP made really easy](http://www.jmarshall.com/easy/http/).
 

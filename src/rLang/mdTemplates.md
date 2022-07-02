@@ -9,6 +9,8 @@ authors:
     avatar: https://assets.cronje.me/avatars/darker.jpg
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 ---
+<script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
+
 A package of R markdown templates and knitr knit engine replacements
 
 These are a set of alternate R markdown templates that do not use Bootstrap and do not include or rely on jQuery. These are primarily here for demonstration purposes but are also useful in and of themselves (it's always good to have choices). If you have a particular framework you like and it's not here, file an issue and I'll add it.

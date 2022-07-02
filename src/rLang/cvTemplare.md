@@ -7,6 +7,7 @@ authors:
     email: charl@CRONje.ME
     avatar: https://assets.cronje.me/avatars/darker.jpg
 ---
+<script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
 
 ||| RStudio
 Why aren’t you using [R Markdown](http://rmarkdown.rstudio.com/) already? I’ve offered an argument why you should consider doing everything in R Markdown with posts about [my academic manuscript template](http://svmiller.com/blog/2016/02/svm-r-markdown-manuscript/) and [my integration of R Markdown with Beamer](http://svmiller.com/blog/2015/02/moving-from-beamer-to-r-markdown/) 
