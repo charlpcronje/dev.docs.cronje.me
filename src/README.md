@@ -10,6 +10,7 @@ authors:
 tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 ---
 <script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
+
 ```sh
 .__ .___.  ..___.   .__..__ .  ..___.  ..___.   .  ..___
 |  \[__ \  /[__ |   |  |[__)|\/|[__ |\ |  |     |\/|[__ 
@@ -60,7 +61,6 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [Preloading & Prefetching](./html/prefetchAndPreload.md)
 - [Themes & Design](./html/themesAndDesign.md)
 - [UNOCSS](./html/unocss.md)
-- [CSS Grid](https://www.youtube.com/watch?v=0xMQfnTU6oo)
 
 ### JavaScript
 
@@ -80,32 +80,16 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [PReact](./js/libs/PReact.md)
 - [jsMVC](./js/libs/jsMVC.md)
 - [GreenSock 'GSAP'](./js/libs/gsap.md)
-  - [Simple Example](https://www.youtube.com/watch?v=m6PDUIF24v4)
 
 ### JS Document Editors, Mockups and Site Generators
 
 - [Blocks UI](blocksui.md)
-- [Gatsby + Netlify CMS Starter](https://github.com/ritesh2204/gatsby-starter-netlify-cms)
 - [Grapes.JS Block Website Dev](grapesjs.md)
-- [Kadence Blacks Web Builder](https://cloud.kadenceblocks.com/)
-- [SlateJS](https://www.smashingmagazine.com/2021/05/building-wysiwyg-editor-javascript-slatejs/)
-  - [Slate on GitHub](https://github.com/smashingmagazine/wysiwyg-editor)
 - [SlateJS Examples](slatejs/README.md)
-- [Plate Editor Playground](https://codesandbox.io/s/2mh1c)
 
-### Code sandbox
+### Telegram BOT
 
-- [Code Sandbox Client](https://github.com/codesandbox/codesandbox-client)
-- [GrapesJS Examples](https://codesandbox.io/examples/package/grapesjs)
-- [GrapesJS Block (Good)](https://codesandbox.io/s/lej2t?file=/src/index.js)
-- [GrapesJS Newsletter](https://codesandbox.io/s/urxqy?file=/src/App.js)]
-- [GrapesJS MicroSite Builder](https://codesandbox.io/s/o9hxu)
-- [Tailwind CSS](https://codesandbox.io/examples/package/tailwindcss)
-- [Tailwind Dropdown with group-hover](https://codesandbox.io/s/gm9k9)
-- [Dark Mode Tailwind](https://codesandbox.io/s/ndpw4)
-- [Subscribe To Our Newsletter](https://codesandbox.io/s/r3wu9?file=/src/index.js)
-- [React Table](https://codesandbox.io/s/sw030?file=/src/App.js)
-- [Nuxt starter](https://codesandbox.io/s/h0z15)
+- [Register New Telegram Bot](./telegram/newBot.md)
 
 ### Vue.js Framework
 
@@ -140,57 +124,5 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 
 - [Vite](./js/vite/README.md)
 
-## Perl Development
 
-- [Getting started with Perl](perl/gettingStarted.md)
-- [Perl Scripting IDE's](perl/perlIDEs.md)
-- [Argument Parsing Sub-Routines](perl/argsSubRoutines.md)
-- [Dots in Perl](perl/dotsInPerl.md)
-- [Singletons](perl/singleton.md)
-- [Static Variables](perl/staticVars.md)
-- [Variable variables](perl/variableVariables.md)
-
-### Perl Libraries
-
-- [Hash.Digger](perl/libs/Hash.Digger.md)
-- [Class.Tiny](perl/libs/Class.Tiny.md)
-- [Config.Tiny](perl/libs/Config.Tiny.md)
-- [HTML.Tiny](perl/libs/HTML.Tiny.md)
-- [Path.Tiny](perl/libs/Path.Tiny.md)
-- [Set.Tiny](perl/libs/Set.Tiny.md)
-- [SQL.Tiny](perl/libs/SQL.Tiny.md)
-- [XML.Tiny](perl/libs/XML.Tiny.md)
-
-### Perl Regular Expressions
-
-- [Regex Basics](perl/regex/regexBasics.md)
-- [Regex for SSH Agent](perl/regex/regexForSSHAgent.md)
-- [Sample Data](perl/regex/sampleData.md)
-- [Sub Strings](perl/regex/subStrings.md)
-- [Regex in Perl](perl/regex.md)
-
-## PHP Development
-
-- [PHP](./php/README.md)
-- [Preload](./php/preload.md)
-- [Laravel](./php/laravel/README.md)
-- [Laravel CORS](./php/laravel/cors.md)
-- [Run shell_exec as sudo](./php/shellExec/README.md)
-
-## RStudio IDE
-
-- **[R Programming](./rLang/README.md)**
-  - [Awesome R](./rLang/awesomer.md)
-  - [Install R](./rLang/installR.md)
-  - [R Studio](./rLang/rstudio.md)
-- **[R Markdown](./rLang/rmd.md)**
-  - [Markdown Templates](./rLang/mdTemplates.md)
-  - [Portfolio Template](./rLang/cvTemplare.md)
-  - [Quarto guide](./rLang/quartoGuide.md)
-- **[Web-Scraping](./rLang/webScraping.md)**
-
-## Icon Sets
-
-- [octIcons](./icons/octIcons.md)  
-- [Material Design Icons](./icons/materialIcons.md)
   
