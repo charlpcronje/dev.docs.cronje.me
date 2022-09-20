@@ -2,7 +2,7 @@ input: src
 output: public
 url: http://dev.docs.CRONje.ME
 branding:
-  title: CRONje.ME DEV Docs
+  title: CRONje.ME | DEV Docs
   label: Docs
 links:
 - text: Dashboard
