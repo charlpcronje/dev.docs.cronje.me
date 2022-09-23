@@ -22,6 +22,12 @@ tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 
 Bash is not the most exciting topic and I would a very nice reference to most if the issues I've ever experienced: [Bash Scripting](https://www.javatpoint.com/bash-scripting)
 
+## Browser Dev Tools& Tips
+
+Here are a small collection of browser developer tools that you should know about
+
+- [Browser Tools & Tip](./browserDevTips.md)
+
 ## [Dev Tools](./devTools/README.md)
 
 - I created a few development tools that can plug into any `backend` or `frontend` to give me instant `feedback` on any requested `module` / `class`, `method` or `function`
@@ -86,6 +92,10 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [Blocks UI](blocksui.md)
 - [Grapes.JS Block Website Dev](grapesjs.md)
 - [SlateJS Examples](slatejs/README.md)
+
+### Surreal DB
+
+- [Surreal DB: new Relation, Document, schemaless / Schemaful DB](surrealdb.md)
 
 ### Telegram BOT
 
