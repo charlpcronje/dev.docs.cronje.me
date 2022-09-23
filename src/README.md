@@ -28,7 +28,9 @@ Here are a small collection of browser developer tools that you should know abou
 
 - [Browser Tools & Tip](./browserDevTips.md)
 
-## [Dev Tools](./devTools/README.md)
+## Dev Tools
+
+- [Dev Tools](./devTools/README.md)
 
 - I created a few development tools that can plug into any `backend` or `frontend` to give me instant `feedback` on any requested `module` / `class`, `method` or `function`
 - It is also important to get `feedback` on the `time spend` executing certain tasks.
