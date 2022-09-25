@@ -30,7 +30,7 @@ Here are a small collection of browser developer tools that you should know abou
 
 ## Dev Tools
 
-[Dev Tools](./devTools/README.md)
+- [Dev Tools](./devTools/README.md)
 
 - I created a few development tools that can plug into any `backend` or `frontend` to give me instant `feedback` on any requested `module` / `class`, `method` or `function`
 - It is also important to get `feedback` on the `time spend` executing certain tasks.
@@ -75,6 +75,17 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [GraphQL](./js/graphql/README.md)
 - [GraphQL & Axios](./js/graphql/axios.md)
 - [Cash.js](./js/libs/cash-js.md)
+
+### TypeScript [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
+
+- [Configure Compiler](./typeScript/setup.md)
+- [Debugging TypeScript](./typeScript/debug.md)
+- [TypeScript Types](./typeScript/types.md)
+- [TypeScript Functions](./typeScript/functions.md)
+- [TypeScript Objects](./typeScript/objects.md)
+- [Advanced Types](./typeScript/AdvancedTypes.md)
+- [TypeScript Generics](./typeScript/generics.md)
+- [TypeScript Type Guards](./typeScript/typeGuards.md)
 
 ### Node.js - Server Side Scripting
 
