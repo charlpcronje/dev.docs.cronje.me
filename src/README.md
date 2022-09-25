@@ -83,9 +83,10 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [TypeScript Types](./typeScript/types.md)
 - [TypeScript Functions](./typeScript/functions.md)
 - [TypeScript Objects](./typeScript/objects.md)
-- [Advanced Types](./typeScript/AdvancedTypes.md)
+- [TypeScript Advanced Types](./typeScript/AdvancedTypes.md)
 - [TypeScript Generics](./typeScript/generics.md)
 - [TypeScript Type Guards](./typeScript/typeGuards.md)
+- [TypeScript Type Predicates](./typeScript/typePredicates.md)
 
 ### Node.js - Server Side Scripting
 
