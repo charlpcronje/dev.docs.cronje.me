@@ -14,6 +14,8 @@ authors:
 
 > A function is said to be thread-safe if and only if it will always produce correct results when called repeatedly from multiple concurrent threads.
 
+If your functions are not thread-safe then it is likely that they will cause some WTF moments? Also the frequency of such moments will increase incrementally is the requests to the function increases
+
 ### How to make a function or code block thread safe in C#
 
 You can use the `lock` keyword to make sure only one thread has access to the block of code at any one time:
@@ -102,8 +104,29 @@ Now you can create a thousand entries but we don't let SQL decide what the `ID's
 
 So if the id does not need to be a number and you are not using it for some kind of partitioning then rather use `uuid's` for id's, there are some security implications for using `uuid's` (better for security) and there are some other downsides. But in most cases when you are worried about `thread-safety` when working with SQL inserts etc, try using `uuid's`
 
+## Is PHP thread-safe, doesn't PHP run ona single thread?
 
+Yes, it correct that PHP does run on a single thread, but Apache does not. There is also a way to run PHP in multiple thread and to compile the executable to be thread-safe and or not to be. The difference really lies with what you are trying to achieve. Thread-safety switched off, makes your code run a bit faster, so if you know what you are doing regarding your threads and you want more speed, you could potentially get about a 20% increase in some cases but in others you might not even notice any change.
 
+I am sure tha most developers are aware of how files can be blocked by one process when you use something like `file_get_contents`. It is easy to understand that you can't write different things to the same file on two different threads and expect it to just merge the changes and just work by magic. Certain things about thread safety easily makes sense but other's not so much.
+
+### Some thread-unsafe functions in PHP
+
+`shmop_read` and `shmop_write`
+
+The two `functions` I mentioned above are used to `read` and `write` shared memory between `requests`, and in this care you would need to use a `semaphore` to make it `thread-safe`
+
+```php
+shmget(0x74613e35,0x64,0x3a4,0x3,0x1,0x7fffffffb9c8) = 65540 (0x10004)
+shmctl(0x10004,0x2,0x7fffffffb960,0x3,0x1,0x7fffffffb9c8) = 0 (0x0)
+shmat(0x10004,0x0,0x0,0x3,0x1,0x7fffffffb9c8) = 34369576960 (0x800962000)
+^CSIGNAL 2 (SIGINT)
+process exit, rval = 0
+```
+
+## Conclusion
+
+`WTF moments` because if `thread-safety` issues can happen, and I think just to be aware of `thread-safety` will at least make you think about something like this when you have a `WTF moment`. It is not realistic to go and find out which `functions` in which languages are safe and which are not. Usually when you Google a `function` of a specific language and it is not a `thread-safe` `function`, it will be mentioned somewhere, where it is visible enough so that it will be noted by developers
 
 
 
