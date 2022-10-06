@@ -12,41 +12,16 @@ tags: [dev,tools,start,js,php,frontend,backend,developer,devtools,helpers,log]
 <script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
 
 ```sh
-.__ .___.  ..___.   .__..__ .  ..___.  ..___.   .  ..___
-|  \[__ \  /[__ |   |  |[__)|\/|[__ |\ |  |     |\/|[__ 
-|__/[___ \/ [___|___|__||   |  |[___| \|  |   * |  |[___
-                                                        
+01000100    01001111    01000011   01010011   00101110   01000011   01010010    01001111    01001110 
+_______________________________ ____________________________   _________        ______  ____________
+___  __ \_  __ \_  ____/_  ___/ __  ____/__  __ \_  __ \__  | / /_____(_)____   ___   |/  /__  ____/
+__  / / /  / / /  /    _____ \  _  /    __  /_/ /  / / /_   |/ /_____  /_  _ \  __  /|_/ /__  __/   
+_  /_/ // /_/ // /___  ____/ /__/ /___  _  _, _// /_/ /_  /|  / ____  / /  __/___  /  / / _  /___   
+/_____/ \____/ \____/  /____/_(_)____/  /_/ |_| \____/ /_/ |_/  ___  /  \___/_(_)_/  /_/  /_____/   
+                                                                /___/                              
+                        01101010   01100101   00101110   01001101   01000101 
+                  
 ```
-
-## Bash Scripting
-
-Bash is not the most exciting topic and I would a very nice reference to most if the issues I've ever experienced: [Bash Scripting](https://www.javatpoint.com/bash-scripting)
-
-## Browser Dev Tools& Tips
-
-Here are a small collection of browser developer tools that you should know about
-
-- [Browser Tools & Tip](./browserDevTips.md)
-
-## Dev Tools
-
-- [Dev Tools](./devTools/README.md)
-
-- I created a few development tools that can plug into any `backend` or `frontend` to give me instant `feedback` on any requested `module` / `class`, `method` or `function`
-- It is also important to get `feedback` on the `time spend` executing certain tasks.
-- Since `PHP 7.4` when they introduced the `PHP RFC: Preload` I saw an opportunity by preloading the `dev tools`, I get to `hook` into any code loaded afterwards, giving me access to monitor any system without interfering with any existing code.
-
-## Design Patterns
-
-- [10 Design Patterns Explained in 10 minutes](./tenDesignPatterns.md)
-
-## Some of the tools
-
-- [Getting Started](./devTools/README.md)
-- [Console Log Anything](./devTools/consoleLog.md)
-- [Error Reporting](./devTools/errorReporting.md)
-- [Log Helpers](./devTools/logHelpers.md)
-- [Routing](./devTools/route.md)
 
 ### 3rd Party MySQL Client
 
@@ -54,27 +29,61 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 
 - [Adminer](./devTools/adminer.md)
 
-## Public API's
+### Bash Scripting
 
-- [Twillo Public WhatsApp API](./api/twillo.md)
+Bash is not the most exciting topic and I would a very nice reference to most if the issues I've ever experienced: [Bash Scripting](https://www.javatpoint.com/bash-scripting)
 
-## Chrome Extensions
+### Browser Dev Tools& Tips
+
+Here are a small collection of browser developer tools that you should know about
+
+- [Browser Tools & Tip](./browserDevTips.md)
+
+### Build Tools
+
+- [Vite](./js/vite/README.md)
+
+### Chrome Extensions
 
 - [Manifest V3](./chromeExt/manifestV3.md)
 - [Options Page](./chromeExt/optionsPage.md)
 
-## Frontend Development
+### Dev Tools
+
+- [Dev Tools](./devTools/README.md)
+
+- I created a few development tools that can plug into any `backend` or `frontend` to give me instant `feedback` on any requested `module` / `class`, `method` or `function`
+- It is also important to get `feedback` on the `time spend` executing certain tasks.
+- Since `PHP 7.4` when they introduced the `PHP RFC: Preload` I saw an opportunity by preloading the `dev tools`, I get to `hook` into any code loaded afterwards, giving me access to monitor any system without interfering with any existing code.
+
+### Some of the tools
+
+- [Getting Started](./devTools/README.md)
+- [Console Log Anything](./devTools/consoleLog.md)
+- [Error Reporting](./devTools/errorReporting.md)
+- [Log Helpers](./devTools/logHelpers.md)
+- [Routing](./devTools/route.md)
+
+### Design Patterns
+
+- [10 Design Patterns Explained in 10 minutes](./tenDesignPatterns.md)
+
+
+
+### Public API's
+
+- [Twillo Public WhatsApp API](./api/twillo.md)
+
+### Frontend Development
 
 - [Prototyping](./html/prototyping.md)
 - [Preloading & Prefetching](./html/prefetchAndPreload.md)
 - [Themes & Design](./html/themesAndDesign.md)
 - [UNOCSS](./html/unocss.md)
 
-### JavaScript
+### Telegram BOT
 
-- [GraphQL](./js/graphql/README.md)
-- [GraphQL & Axios](./js/graphql/axios.md)
-- [Cash.js](./js/libs/cash-js.md)
+- [Register New Telegram Bot](./telegram/newBot.md)
 
 ### TypeScript [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 
@@ -93,6 +102,12 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [Node Version Manager](./node/nvm.md)
 - [Creating a node.js Cmd Line App](./node/nodecli.md)
 
+### JavaScript
+
+- [GraphQL](./js/graphql/README.md)
+- [GraphQL & Axios](./js/graphql/axios.md)
+- [Cash.js](./js/libs/cash-js.md)
+
 ### JS Libraries
 
 - [Cash JS](./js/libs/cash-js.md)
@@ -107,13 +122,13 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [Grapes.JS Block Website Dev](grapesjs.md)
 - [SlateJS Examples](slatejs/README.md)
 
+### State Management
+
+- [Custom State Management](customState.md)
+
 ### Surreal DB
 
 - [Surreal DB: new Relation, Document, schemaless / Schemaful DB](surrealdb.md)
-
-### Telegram BOT
-
-- [Register New Telegram Bot](./telegram/newBot.md)
 
 ### Vue.js Framework
 
@@ -140,13 +155,14 @@ Adminer is a single PHP file web based mysql client, very handy for remote SQL M
 - [Quasar Testing](./js/quasar/quasarTesting.md)
 - [Dev For Public](./js/quasar/devForPublic.md)
 
-### State Management
+### WTF... How did that happen?
 
-- [Custom State Management](customState.md)
+These are the worst and the best times. It will freak you out, but will probably teach you a lot more!
 
-### Build Tools
+When you run into a situation where you are saying `WTF... How did that happen?`
 
-- [Vite](./js/vite/README.md)
+- [WTF moments, and what it could be](./wtf/README.md)
+- [WTF? Thread safety. Safe and unsafe threads](./wtf/threads.md)
 
 
   
