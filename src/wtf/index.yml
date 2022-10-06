@@ -1,0 +1,9 @@
+title: WTF Moments | CRONje.ME
+label: WTF Moments
+order: 102
+authors:
+  - name: Charl Cronje
+    email: charl@CRONje.ME
+    link: https://blog.cronje.me
+    avatar: https://assets.cronje.me/avatars/darker.jpg
+tags: [dev,tools,js,frontend,backend,node,node cli,nvm]
