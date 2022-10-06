@@ -161,8 +161,13 @@ These are the worst and the best times. It will freak you out, but will probably
 
 When you run into a situation where you are saying `WTF... How did that happen?`
 
+But first some theory: [Semaphores](./wtf/semaphores.md)
+
 - [WTF moments, and what it could be](./wtf/README.md)
 - [WTF? Thread safety. Safe and unsafe threads](./wtf/threads.md)
+
+
+
 
 
   
