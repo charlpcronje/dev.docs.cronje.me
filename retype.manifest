@@ -1,0 +1,618 @@
+{
+  "version": "3.0.3",
+  "created": "2023-06-23T06:15:27Z",
+  "files": [
+    {
+      "path": ".nojekyll"
+    },
+    {
+      "path": "404.html"
+    },
+    {
+      "path": "api/twillo/index.html"
+    },
+    {
+      "path": "blocksui/index.html"
+    },
+    {
+      "path": "browserdevtips/index.html"
+    },
+    {
+      "path": "chromeext/manifestv3/index.html"
+    },
+    {
+      "path": "chromeext/options/images/complex_checkbox_field.png"
+    },
+    {
+      "path": "chromeext/options/images/complex_checkbox.png"
+    },
+    {
+      "path": "chromeext/options/images/complex_list.png"
+    },
+    {
+      "path": "chromeext/options/images/complex_object.png"
+    },
+    {
+      "path": "chromeext/options/images/example.png"
+    },
+    {
+      "path": "chromeext/options/images/example2.png"
+    },
+    {
+      "path": "chromeext/options/images/field_checkbox.png"
+    },
+    {
+      "path": "chromeext/options/images/field_color_2.png"
+    },
+    {
+      "path": "chromeext/options/images/field_color.png"
+    },
+    {
+      "path": "chromeext/options/images/field_custom_sound.png"
+    },
+    {
+      "path": "chromeext/options/images/field_predefined_sound.png"
+    },
+    {
+      "path": "chromeext/options/images/field_radio.png"
+    },
+    {
+      "path": "chromeext/options/images/field_select.png"
+    },
+    {
+      "path": "chromeext/options/images/field_text.png"
+    },
+    {
+      "path": "chromeext/optionspage/index.html"
+    },
+    {
+      "path": "CNAME"
+    },
+    {
+      "path": "designpatterns/video.gif"
+    },
+    {
+      "path": "devtools/adminer/index.html"
+    },
+    {
+      "path": "devtools/consolelog/index.html"
+    },
+    {
+      "path": "devtools/errorreporting/index.html"
+    },
+    {
+      "path": "devtools/images/navicat_coseuamdvp.jpg"
+    },
+    {
+      "path": "devtools/images/navicat_mrb0cazrl9.jpg"
+    },
+    {
+      "path": "devtools/images/navicat_sc7fbq6raw.jpg"
+    },
+    {
+      "path": "devtools/index.html"
+    },
+    {
+      "path": "devtools/loghelpers/index.html"
+    },
+    {
+      "path": "devtools/route/index.html"
+    },
+    {
+      "path": "favicon.png"
+    },
+    {
+      "path": "gatsby/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-aviary/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-blocks-basic/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-blocks-flexbox/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-custom-code/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-firestore/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-lory-slider/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-mjml/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-navbar/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-plugin-filestack/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-plugin-forms/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-preset-newsletter/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-preset-webpage/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-style-bg/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-style-filter/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-tabs/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-tooltip/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-touch/index.html"
+    },
+    {
+      "path": "grapesjs/grapesjs-tui-image-editor/index.html"
+    },
+    {
+      "path": "grapesjs/index.html"
+    },
+    {
+      "path": "html/prefetchandpreload/index.html"
+    },
+    {
+      "path": "html/prototyping/index.html"
+    },
+    {
+      "path": "html/themesanddesign/index.html"
+    },
+    {
+      "path": "html/unocss/index.html"
+    },
+    {
+      "path": "index.html"
+    },
+    {
+      "path": "js/graphql/axios/index.html"
+    },
+    {
+      "path": "js/graphql/index.html"
+    },
+    {
+      "path": "js/libs/cash-js/index.html"
+    },
+    {
+      "path": "js/libs/gsap/index.html"
+    },
+    {
+      "path": "js/libs/jsdoc/index.html"
+    },
+    {
+      "path": "js/libs/jsmvc.zip"
+    },
+    {
+      "path": "js/libs/jsmvc/index.html"
+    },
+    {
+      "path": "js/libs/preact/index.html"
+    },
+    {
+      "path": "js/quasar/apiproxy/index.html"
+    },
+    {
+      "path": "js/quasar/bootfiles/index.html"
+    },
+    {
+      "path": "js/quasar/bootplugin/index.html"
+    },
+    {
+      "path": "js/quasar/commandlist/index.html"
+    },
+    {
+      "path": "js/quasar/deployingorbuilding/index.html"
+    },
+    {
+      "path": "js/quasar/devforpublic/index.html"
+    },
+    {
+      "path": "js/quasar/envprocess/index.html"
+    },
+    {
+      "path": "js/quasar/globalcomponents/index.html"
+    },
+    {
+      "path": "js/quasar/index.html"
+    },
+    {
+      "path": "js/quasar/quasarassets/index.html"
+    },
+    {
+      "path": "js/quasar/quasarprefetch/index.html"
+    },
+    {
+      "path": "js/quasar/sassinjs/index.html"
+    },
+    {
+      "path": "js/vite/index.html"
+    },
+    {
+      "path": "js/vue/composition/api/index.html"
+    },
+    {
+      "path": "js/vue/composition/fetchdata/index.html"
+    },
+    {
+      "path": "js/vue/differentbuilds/index.html"
+    },
+    {
+      "path": "js/vue/graphql/axios/index.html"
+    },
+    {
+      "path": "js/vue/graphql/index.html"
+    },
+    {
+      "path": "js/vue/index.html"
+    },
+    {
+      "path": "js/vue/installvue/index.html"
+    },
+    {
+      "path": "js/vue/quasar/apiproxy/index.html"
+    },
+    {
+      "path": "js/vue/quasar/bootfiles/index.html"
+    },
+    {
+      "path": "js/vue/quasar/bootplugin/index.html"
+    },
+    {
+      "path": "js/vue/quasar/commandlist/index.html"
+    },
+    {
+      "path": "js/vue/quasar/deployingorbuilding/index.html"
+    },
+    {
+      "path": "js/vue/quasar/devforpublic/index.html"
+    },
+    {
+      "path": "js/vue/quasar/envprocess/index.html"
+    },
+    {
+      "path": "js/vue/quasar/globalcomponents/index.html"
+    },
+    {
+      "path": "js/vue/quasar/index.html"
+    },
+    {
+      "path": "js/vue/quasar/quasarassets/index.html"
+    },
+    {
+      "path": "js/vue/quasar/quasarprefetch/index.html"
+    },
+    {
+      "path": "js/vue/quasar/quasartesting/index.html"
+    },
+    {
+      "path": "js/vue/quasar/sassinjs/index.html"
+    },
+    {
+      "path": "js/vue/state/customstate/index.html"
+    },
+    {
+      "path": "js/vue/ui/img/ia.png"
+    },
+    {
+      "path": "js/vue/ui/img/id.png"
+    },
+    {
+      "path": "js/vue/ui/img/insd.png"
+    },
+    {
+      "path": "js/vue/ui/img/pc.png"
+    },
+    {
+      "path": "js/vue/ui/img/pd.png"
+    },
+    {
+      "path": "js/vue/ui/img/pd2.png"
+    },
+    {
+      "path": "js/vue/ui/img/pm.png"
+    },
+    {
+      "path": "js/vue/ui/img/pt.png"
+    },
+    {
+      "path": "js/vue/vuewebstorage/index.html"
+    },
+    {
+      "path": "materialicons/index.html"
+    },
+    {
+      "path": "node/nodecli/index.html"
+    },
+    {
+      "path": "node/nvm/index.html"
+    },
+    {
+      "path": "node/puppeteer/index.html"
+    },
+    {
+      "path": "resources/css/retype.css"
+    },
+    {
+      "path": "resources/fonts/Inter-italic-latin-var.woff2"
+    },
+    {
+      "path": "resources/fonts/Inter-roman-latin-var.woff2"
+    },
+    {
+      "path": "resources/js/config.js"
+    },
+    {
+      "path": "resources/js/lunr.js"
+    },
+    {
+      "path": "resources/js/prism.js"
+    },
+    {
+      "path": "resources/js/retype.js"
+    },
+    {
+      "path": "resources/js/search.json"
+    },
+    {
+      "path": "resources/lunr.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/mermaid.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/prism.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/retype.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/retype.LICENSE.txt"
+    },
+    {
+      "path": "robots.txt"
+    },
+    {
+      "path": "sitemap.xml.gz"
+    },
+    {
+      "path": "slatejs/index.html"
+    },
+    {
+      "path": "surrealdb/index.html"
+    },
+    {
+      "path": "tags/.env/index.html"
+    },
+    {
+      "path": "tags/assets/index.html"
+    },
+    {
+      "path": "tags/backend/index.html"
+    },
+    {
+      "path": "tags/boot/index.html"
+    },
+    {
+      "path": "tags/cash/index.html"
+    },
+    {
+      "path": "tags/chrome/index.html"
+    },
+    {
+      "path": "tags/client/index.html"
+    },
+    {
+      "path": "tags/commands/index.html"
+    },
+    {
+      "path": "tags/components/index.html"
+    },
+    {
+      "path": "tags/console/index.html"
+    },
+    {
+      "path": "tags/css/index.html"
+    },
+    {
+      "path": "tags/dev/index.html"
+    },
+    {
+      "path": "tags/developer/index.html"
+    },
+    {
+      "path": "tags/devtools/index.html"
+    },
+    {
+      "path": "tags/doc/index.html"
+    },
+    {
+      "path": "tags/error/index.html"
+    },
+    {
+      "path": "tags/extension/index.html"
+    },
+    {
+      "path": "tags/fetch/index.html"
+    },
+    {
+      "path": "tags/frontend/index.html"
+    },
+    {
+      "path": "tags/global/index.html"
+    },
+    {
+      "path": "tags/helpers/index.html"
+    },
+    {
+      "path": "tags/html/index.html"
+    },
+    {
+      "path": "tags/http/index.html"
+    },
+    {
+      "path": "tags/index.html"
+    },
+    {
+      "path": "tags/js/index.html"
+    },
+    {
+      "path": "tags/jsdoc/index.html"
+    },
+    {
+      "path": "tags/lib/index.html"
+    },
+    {
+      "path": "tags/local-storage/index.html"
+    },
+    {
+      "path": "tags/log/index.html"
+    },
+    {
+      "path": "tags/manifest/index.html"
+    },
+    {
+      "path": "tags/mvc/index.html"
+    },
+    {
+      "path": "tags/options/index.html"
+    },
+    {
+      "path": "tags/php/index.html"
+    },
+    {
+      "path": "tags/plugin/index.html"
+    },
+    {
+      "path": "tags/prefetch/index.html"
+    },
+    {
+      "path": "tags/preload/index.html"
+    },
+    {
+      "path": "tags/process/index.html"
+    },
+    {
+      "path": "tags/public/index.html"
+    },
+    {
+      "path": "tags/pwa/index.html"
+    },
+    {
+      "path": "tags/quasar/index.html"
+    },
+    {
+      "path": "tags/reports/index.html"
+    },
+    {
+      "path": "tags/routes/index.html"
+    },
+    {
+      "path": "tags/sass/index.html"
+    },
+    {
+      "path": "tags/spa/index.html"
+    },
+    {
+      "path": "tags/sql/index.html"
+    },
+    {
+      "path": "tags/start/index.html"
+    },
+    {
+      "path": "tags/state/index.html"
+    },
+    {
+      "path": "tags/telegram/index.html"
+    },
+    {
+      "path": "tags/test/index.html"
+    },
+    {
+      "path": "tags/testing/index.html"
+    },
+    {
+      "path": "tags/tools/index.html"
+    },
+    {
+      "path": "tags/unit/index.html"
+    },
+    {
+      "path": "tags/uno/index.html"
+    },
+    {
+      "path": "tags/unocss/index.html"
+    },
+    {
+      "path": "tags/v3/index.html"
+    },
+    {
+      "path": "tags/vue/index.html"
+    },
+    {
+      "path": "tags/web-storage/index.html"
+    },
+    {
+      "path": "telegram/newbot/index.html"
+    },
+    {
+      "path": "telegram/telegram_1.png"
+    },
+    {
+      "path": "telegram/telegram_2.png"
+    },
+    {
+      "path": "telegram/telegram_3.png"
+    },
+    {
+      "path": "tendesignpatterns/index.html"
+    },
+    {
+      "path": "typescript/advancedtypes/index.html"
+    },
+    {
+      "path": "typescript/debug/index.html"
+    },
+    {
+      "path": "typescript/functions/index.html"
+    },
+    {
+      "path": "typescript/generics/index.html"
+    },
+    {
+      "path": "typescript/objects/index.html"
+    },
+    {
+      "path": "typescript/setup/index.html"
+    },
+    {
+      "path": "typescript/typeguards/index.html"
+    },
+    {
+      "path": "typescript/typepredicates/index.html"
+    },
+    {
+      "path": "typescript/types/index.html"
+    },
+    {
+      "path": "wtf/index.html"
+    },
+    {
+      "path": "wtf/semaphores/index.html"
+    },
+    {
+      "path": "wtf/threads/index.html"
+    }
+  ]
+}
